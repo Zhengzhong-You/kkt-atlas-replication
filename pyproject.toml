@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kkt-atlas"
+version = "1.0.0"
+description = "Replication package for KKT Atlas: Learning Compact Local Scenario Models for Contextual Stochastic Optimization"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "torch>=2.2",
+    "clarabel>=0.7",
+    "scikit-learn>=1.4",
+    "threadpoolctl>=3.2",
+]
+
+[project.optional-dependencies]
+gurobi = ["gurobipy>=11.0"]
+dev = ["pytest>=8.0", "matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

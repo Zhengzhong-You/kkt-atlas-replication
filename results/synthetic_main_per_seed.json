@@ -1,0 +1,3998 @@
+{
+  "experiment": "synthetic_main_per_seed",
+  "records": [
+    {
+      "application": "capacity",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          4
+        ],
+        "d_b": [
+          3
+        ],
+        "max_K": 4,
+        "parameter_count": 39,
+        "seed": 260911,
+        "selected_step": 1600,
+        "stored_K": 4,
+        "validation_loss": 1.5629893977663056
+      },
+      "methods": {
+        "atlas": {
+          "application": "capacity",
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 2.0250523655174213e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas",
+          "min_context_regret": 1.3591734975060277e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.5272188573863104,
+          "relative_excess_percent": 0.07953549876750622,
+          "risk": 1.528433538521804,
+          "seed": 260911,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 1600,
+          "stored_K": 4,
+          "validation_loss": 1.5629893977663056
+        },
+        "atlas_init": {
+          "application": "capacity",
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.2702751001070212e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas_init",
+          "min_context_regret": 7.4565373973101146e-06,
+          "parameter_count": 39,
+          "reference_risk": 1.5272188573863104,
+          "relative_excess_percent": 0.0647402441811247,
+          "risk": 1.5282075826037624,
+          "seed": 260911,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 4
+        },
+        "iceo_a": {
+          "application": "capacity",
+          "method": "iceo_a",
+          "reference_risk": 1.5272188573863104,
+          "relative_excess_percent": 0.24767047327232353,
+          "risk": 1.5310013275583032,
+          "seed": 260911
+        },
+        "iceo_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "method": "iceo_sr",
+          "parameter_count": 1476,
+          "reference_risk": 1.5272188573863104,
+          "relative_excess_percent": 0.3102165805006269,
+          "risk": 1.531956543502455,
+          "seed": 260911,
+          "selected_k": null,
+          "selected_step": 400,
+          "validation_loss": 1.5666726419362045
+        },
+        "knn": {
+          "application": "capacity",
+          "method": "knn",
+          "reference_risk": 1.5272188573863104,
+          "relative_excess_percent": 1.777074476065395,
+          "risk": 1.55435867389458,
+          "seed": 260911
+        },
+        "knn_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "method": "knn_sr",
+          "parameter_count": null,
+          "reference_risk": 1.5272188573863104,
+          "relative_excess_percent": 1.7128864445077134,
+          "risk": 1.553378382172446,
+          "seed": 260911,
+          "selected_k": 64,
+          "selected_step": null,
+          "validation_loss": null
+        },
+        "saa": {
+          "application": "capacity",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.00043310015462338924,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 8.340141938179002e-09,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 0.012779772226520825,
+          "probe_single_context_seconds": null,
+          "reference_risk": 1.5272188573863104,
+          "relative_excess_percent": 22.357841178740557,
+          "risk": 1.8686720239725179,
+          "seed": 260911,
+          "skipped": false
+        },
+        "sof": {
+          "application": "capacity",
+          "method": "sof",
+          "reference_risk": 1.5272188573863104,
+          "relative_excess_percent": 2.1554502457898526,
+          "risk": 1.5601373000015926,
+          "seed": 260911
+        }
+      },
+      "reference_risk": 1.5272188573863104,
+      "seed": 260911
+    },
+    {
+      "application": "capacity",
+      "atlas_structure": {
+        "B": 2,
+        "K_b": [
+          4,
+          4
+        ],
+        "d_b": [
+          3,
+          3
+        ],
+        "max_K": 4,
+        "parameter_count": 78,
+        "seed": 260912,
+        "selected_step": 0,
+        "stored_K": 8,
+        "validation_loss": 1.5965232397184066
+      },
+      "methods": {
+        "atlas": {
+          "application": "capacity",
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.5397024888397226e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas",
+          "min_context_regret": 2.2010688664142464e-05,
+          "parameter_count": 78,
+          "reference_risk": 1.6073057724281432,
+          "relative_excess_percent": 0.11641213462256841,
+          "risk": 1.6091768713877386,
+          "seed": 260912,
+          "selected_B": 2,
+          "selected_K": [
+            4,
+            4
+          ],
+          "selected_q": [
+            3,
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 8,
+          "validation_loss": 1.5965232397184066
+        },
+        "atlas_init": {
+          "application": "capacity",
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.5397024888397226e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas_init",
+          "min_context_regret": 2.2010688664142464e-05,
+          "parameter_count": 78,
+          "reference_risk": 1.6073057724281432,
+          "relative_excess_percent": 0.11641213462256841,
+          "risk": 1.6091768713877386,
+          "seed": 260912,
+          "selected_B": 2,
+          "selected_K": [
+            4,
+            4
+          ],
+          "selected_q": [
+            3,
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 8
+        },
+        "iceo_a": {
+          "application": "capacity",
+          "method": "iceo_a",
+          "reference_risk": 1.6073057724281432,
+          "relative_excess_percent": 0.46008866248742736,
+          "risk": 1.614700804058591,
+          "seed": 260912
+        },
+        "iceo_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "method": "iceo_sr",
+          "parameter_count": 1476,
+          "reference_risk": 1.6073057724281432,
+          "relative_excess_percent": 0.5037710765278318,
+          "risk": 1.6154029140209984,
+          "seed": 260912,
+          "selected_k": null,
+          "selected_step": 1200,
+          "validation_loss": 1.6005449735544266
+        },
+        "knn": {
+          "application": "capacity",
+          "method": "knn",
+          "reference_risk": 1.6073057724281432,
+          "relative_excess_percent": 1.744762515236346,
+          "risk": 1.6353494410506995,
+          "seed": 260912
+        },
+        "knn_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "method": "knn_sr",
+          "parameter_count": null,
+          "reference_risk": 1.6073057724281432,
+          "relative_excess_percent": 1.7043471007253157,
+          "risk": 1.634699841760313,
+          "seed": 260912,
+          "selected_k": 32,
+          "selected_step": null,
+          "validation_loss": null
+        },
+        "saa": {
+          "application": "capacity",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.00035850005224347115,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.0729824723165748e-07,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 0.00034591700526953595,
+          "probe_single_context_seconds": null,
+          "reference_risk": 1.6073057724281432,
+          "relative_excess_percent": 21.58726749683733,
+          "risk": 1.954279169014314,
+          "seed": 260912,
+          "skipped": false
+        },
+        "sof": {
+          "application": "capacity",
+          "method": "sof",
+          "reference_risk": 1.6073057724281432,
+          "relative_excess_percent": 1.9734825763095905,
+          "risk": 1.639025671795031,
+          "seed": 260912
+        }
+      },
+      "reference_risk": 1.6073057724281432,
+      "seed": 260912
+    },
+    {
+      "application": "capacity",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          4
+        ],
+        "d_b": [
+          3
+        ],
+        "max_K": 4,
+        "parameter_count": 39,
+        "seed": 260913,
+        "selected_step": 1600,
+        "stored_K": 4,
+        "validation_loss": 1.5926080456524914
+      },
+      "methods": {
+        "atlas": {
+          "application": "capacity",
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.604342435013173e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas",
+          "min_context_regret": 2.6068545154966927e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.600705679786483,
+          "relative_excess_percent": 0.07764728077281806,
+          "risk": 1.6019485842200132,
+          "seed": 260913,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 1600,
+          "stored_K": 4,
+          "validation_loss": 1.5926080456524914
+        },
+        "atlas_init": {
+          "application": "capacity",
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.3606912724339892e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas_init",
+          "min_context_regret": 1.0334353310659239e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.600705679786483,
+          "relative_excess_percent": 0.029531350105230673,
+          "risk": 1.601178389784935,
+          "seed": 260913,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 4
+        },
+        "iceo_a": {
+          "application": "capacity",
+          "method": "iceo_a",
+          "reference_risk": 1.600705679786483,
+          "relative_excess_percent": 0.4370296134791727,
+          "risk": 1.607701237631793,
+          "seed": 260913
+        },
+        "iceo_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "method": "iceo_sr",
+          "parameter_count": 1476,
+          "reference_risk": 1.600705679786483,
+          "relative_excess_percent": 0.46074551610662184,
+          "risk": 1.6080808594321632,
+          "seed": 260913,
+          "selected_k": null,
+          "selected_step": 800,
+          "validation_loss": 1.5967682912523689
+        },
+        "knn": {
+          "application": "capacity",
+          "method": "knn",
+          "reference_risk": 1.600705679786483,
+          "relative_excess_percent": 1.9742679080012322,
+          "risk": 1.6323078983240604,
+          "seed": 260913
+        },
+        "knn_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "method": "knn_sr",
+          "parameter_count": null,
+          "reference_risk": 1.600705679786483,
+          "relative_excess_percent": 1.8901675092012935,
+          "risk": 1.6309616984637467,
+          "seed": 260913,
+          "selected_k": 128,
+          "selected_step": null,
+          "validation_loss": null
+        },
+        "saa": {
+          "application": "capacity",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0003847000189125538,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 9.893948091366234e-09,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 0.0008699677556254226,
+          "probe_single_context_seconds": null,
+          "reference_risk": 1.600705679786483,
+          "relative_excess_percent": 20.82126009326725,
+          "risk": 1.9339927727025281,
+          "seed": 260913,
+          "skipped": false
+        },
+        "sof": {
+          "application": "capacity",
+          "method": "sof",
+          "reference_risk": 1.600705679786483,
+          "relative_excess_percent": 2.5163321426109237,
+          "risk": 1.6409847513155489,
+          "seed": 260913
+        }
+      },
+      "reference_risk": 1.600705679786483,
+      "seed": 260913
+    },
+    {
+      "application": "capacity",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          4
+        ],
+        "d_b": [
+          3
+        ],
+        "max_K": 4,
+        "parameter_count": 39,
+        "seed": 260914,
+        "selected_step": 800,
+        "stored_K": 4,
+        "validation_loss": 1.611768628289402
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 949.34375,
+          "construction_wall_seconds": 139.40779749979265,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.4091717506770074e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas",
+          "min_context_regret": 3.098228205078435e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.6355194831734452,
+          "relative_excess_percent": 0.08855132204036432,
+          "risk": 1.636967757298023,
+          "seed": 260914,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 800,
+          "stored_K": 4,
+          "validation_loss": 1.611768628289402
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 47.77989960019477,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.649189783903271e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas_init",
+          "min_context_regret": 2.197735543418844e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.6355194831734452,
+          "relative_excess_percent": 0.048803054989320874,
+          "risk": 1.6363176666461794,
+          "seed": 260914,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 4,
+          "validation_loss": 1.6121307180663849
+        },
+        "iceo_a": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 10268.90625,
+          "construction_wall_seconds": 519.4592349000741,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.79690050006176e-07,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 5.938188964771385e-06,
+          "parameter_count": 17844,
+          "reference_risk": 1.6355194831734452,
+          "relative_excess_percent": 0.48396047891642807,
+          "risk": 1.643434751096983,
+          "seed": 260914,
+          "selected_step": 1600,
+          "validation_loss": 1.619721876855112
+        },
+        "iceo_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 59.09375,
+          "construction_wall_seconds": 90.04211070016026,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.5901620345482037e-07,
+          "mean_query_support": 4.0,
+          "method": "iceo_sr",
+          "min_context_regret": 3.708273511904281e-05,
+          "parameter_count": 1476,
+          "reference_risk": 1.6355194831734452,
+          "relative_excess_percent": 0.4589999935154251,
+          "risk": 1.6430265174951548,
+          "seed": 260914,
+          "selected_step": 1600,
+          "validation_loss": 1.6214332795078077
+        },
+        "knn": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 701.75,
+          "construction_wall_seconds": 51.65740610007197,
+          "max_query_support": 32,
+          "maximum_acceptance_residual": 1.7126502255271348e-07,
+          "mean_query_support": 30.605,
+          "method": "knn",
+          "min_context_regret": 0.00022382238289919698,
+          "reference_risk": 1.6355194831734452,
+          "relative_excess_percent": 2.6233546883681367,
+          "risk": 1.67842496021445,
+          "seed": 260914,
+          "selected_k": 32,
+          "validation_loss": 1.6411200435900546
+        },
+        "knn_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 701.75,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 51.65740610007197,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.517033406672752e-07,
+          "mean_query_support": 4.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.0001846200715660551,
+          "reference_risk": 1.6355194831734452,
+          "relative_excess_percent": 2.550142685713224,
+          "risk": 1.6772275636470075,
+          "seed": 260914,
+          "selected_k": 32,
+          "validation_loss": 1.6411200435900546
+        },
+        "saa": {
+          "application": "capacity",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0006708998698741198,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 8.55616871797693e-09,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 0.003911592187731738,
+          "probe_single_context_seconds": null,
+          "reference_risk": 1.6355194831734452,
+          "relative_excess_percent": 22.288829788211917,
+          "risk": 2.0000576369310177,
+          "seed": 260914,
+          "skipped": false
+        },
+        "sof": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 138.29774820012972,
+          "max_query_support": 241,
+          "maximum_acceptance_residual": 1.4997944683403652e-07,
+          "mean_query_support": 166.785,
+          "method": "sof",
+          "min_context_regret": 0.00020681416171597355,
+          "reference_risk": 1.6355194831734452,
+          "relative_excess_percent": 3.097633371624838,
+          "risk": 1.686181880483652,
+          "seed": 260914,
+          "tree_count": 100,
+          "validation_loss": 1.64358750884365
+        }
+      },
+      "reference_risk": 1.6355194831734452,
+      "seed": 260914
+    },
+    {
+      "application": "capacity",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          4
+        ],
+        "d_b": [
+          3
+        ],
+        "max_K": 4,
+        "parameter_count": 39,
+        "seed": 260915,
+        "selected_step": 0,
+        "stored_K": 4,
+        "validation_loss": 1.635406076436362
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 884.3125,
+          "construction_wall_seconds": 129.1578544001095,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.8239068130809777e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas",
+          "min_context_regret": 9.091998905086385e-06,
+          "parameter_count": 39,
+          "reference_risk": 1.6538051283294843,
+          "relative_excess_percent": 0.04056097824047381,
+          "risk": 1.654475927867726,
+          "seed": 260915,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 4,
+          "validation_loss": 1.635406076436362
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 46.97574200015515,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.8239068130809777e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas_init",
+          "min_context_regret": 9.091998905086385e-06,
+          "parameter_count": 39,
+          "reference_risk": 1.6538051283294843,
+          "relative_excess_percent": 0.04056097824047381,
+          "risk": 1.654475927867726,
+          "seed": 260915,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 4,
+          "validation_loss": 1.635406076436362
+        },
+        "iceo_a": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 9557.578125,
+          "construction_wall_seconds": 495.85537810018286,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 2.057395241950033e-07,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 4.863602022320279e-05,
+          "parameter_count": 17844,
+          "reference_risk": 1.6538051283294843,
+          "relative_excess_percent": 0.5159948159258415,
+          "risk": 1.6623386770571802,
+          "seed": 260915,
+          "selected_step": 800,
+          "validation_loss": 1.6390053143867795
+        },
+        "iceo_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 52.0,
+          "construction_wall_seconds": 84.15125510003418,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 2.3424712600195186e-07,
+          "mean_query_support": 4.0,
+          "method": "iceo_sr",
+          "min_context_regret": 4.5700086930944295e-05,
+          "parameter_count": 1476,
+          "reference_risk": 1.6538051283294843,
+          "relative_excess_percent": 0.5560325478190649,
+          "risk": 1.6630008231204971,
+          "seed": 260915,
+          "selected_step": 800,
+          "validation_loss": 1.641220140165511
+        },
+        "knn": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 608.046875,
+          "construction_wall_seconds": 48.702728000003844,
+          "max_query_support": 119,
+          "maximum_acceptance_residual": 2.6083274498600595e-07,
+          "mean_query_support": 107.605,
+          "method": "knn",
+          "min_context_regret": 0.0005026223368589378,
+          "reference_risk": 1.6538051283294843,
+          "relative_excess_percent": 2.000165562197526,
+          "risk": 1.6868839689721873,
+          "seed": 260915,
+          "selected_k": 128,
+          "validation_loss": 1.6791972727815656
+        },
+        "knn_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 608.046875,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 48.702728000003844,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.9955509608649002e-07,
+          "mean_query_support": 4.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.0005117629106576871,
+          "reference_risk": 1.6538051283294843,
+          "relative_excess_percent": 1.8889210879121556,
+          "risk": 1.6850442021514727,
+          "seed": 260915,
+          "selected_k": 128,
+          "validation_loss": 1.6791972727815656
+        },
+        "saa": {
+          "application": "capacity",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.000501600094139576,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 7.582557742802365e-08,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 0.006485709027955533,
+          "probe_single_context_seconds": null,
+          "reference_risk": 1.6538051283294843,
+          "relative_excess_percent": 24.0099949854094,
+          "risk": 2.050883656709837,
+          "seed": 260915,
+          "skipped": false
+        },
+        "sof": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 121.35090660001151,
+          "max_query_support": 223,
+          "maximum_acceptance_residual": 2.178970669175495e-07,
+          "mean_query_support": 163.0,
+          "method": "sof",
+          "min_context_regret": 4.5030256879963204e-05,
+          "reference_risk": 1.6538051283294843,
+          "relative_excess_percent": 2.8774945852073492,
+          "risk": 1.7013932813470467,
+          "seed": 260915,
+          "tree_count": 100,
+          "validation_loss": 1.6974098027636035
+        }
+      },
+      "reference_risk": 1.6538051283294843,
+      "seed": 260915
+    },
+    {
+      "application": "capacity",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          4
+        ],
+        "d_b": [
+          3
+        ],
+        "max_K": 4,
+        "parameter_count": 39,
+        "seed": 260916,
+        "selected_step": 800,
+        "stored_K": 4,
+        "validation_loss": 1.4907124258018158
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 862.21875,
+          "construction_wall_seconds": 125.24983690003864,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.991014875191155e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas",
+          "min_context_regret": 7.845775358061857e-06,
+          "parameter_count": 39,
+          "reference_risk": 1.506712344933332,
+          "relative_excess_percent": 0.03253198464424698,
+          "risk": 1.5072025083620186,
+          "seed": 260916,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 800,
+          "stored_K": 4,
+          "validation_loss": 1.4907124258018158
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 45.880270699970424,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 6.519431507145956e-08,
+          "mean_query_support": 4.0,
+          "method": "atlas_init",
+          "min_context_regret": 1.9019790651109147e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.506712344933332,
+          "relative_excess_percent": 0.041118056292162544,
+          "risk": 1.5073318757634826,
+          "seed": 260916,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 4,
+          "validation_loss": 1.4918839134707529
+        },
+        "iceo_a": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 10065.84375,
+          "construction_wall_seconds": 514.1845269000623,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.3320393138505082e-07,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 5.4789365706575666e-06,
+          "parameter_count": 17844,
+          "reference_risk": 1.506712344933332,
+          "relative_excess_percent": 0.27020520649074053,
+          "risk": 1.5107835601361805,
+          "seed": 260916,
+          "selected_step": 1200,
+          "validation_loss": 1.4960438353054941
+        },
+        "iceo_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 56.765625,
+          "construction_wall_seconds": 86.81712420005351,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.8507454621619068e-07,
+          "mean_query_support": 4.0,
+          "method": "iceo_sr",
+          "min_context_regret": 2.9065597407340604e-05,
+          "parameter_count": 1476,
+          "reference_risk": 1.506712344933332,
+          "relative_excess_percent": 0.3339620282436655,
+          "risk": 1.511744192040269,
+          "seed": 260916,
+          "selected_step": 400,
+          "validation_loss": 1.4955290686833287
+        },
+        "knn": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 650.0,
+          "construction_wall_seconds": 57.72021679999307,
+          "max_query_support": 64,
+          "maximum_acceptance_residual": 1.1508805541904366e-07,
+          "mean_query_support": 58.505,
+          "method": "knn",
+          "min_context_regret": 0.00011467549782673281,
+          "reference_risk": 1.506712344933332,
+          "relative_excess_percent": 1.908780751690334,
+          "risk": 1.5354721801567615,
+          "seed": 260916,
+          "selected_k": 64,
+          "validation_loss": 1.516717209431547
+        },
+        "knn_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 650.0,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 57.72021679999307,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.6200160493640148e-07,
+          "mean_query_support": 4.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.00010298723727131254,
+          "reference_risk": 1.506712344933332,
+          "relative_excess_percent": 1.8442359605173875,
+          "risk": 1.5344996758201472,
+          "seed": 260916,
+          "selected_k": 64,
+          "validation_loss": 1.516717209431547
+        },
+        "saa": {
+          "application": "capacity",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0004521000664681196,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 4.049027640951053e-09,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 0.0032963516076982557,
+          "probe_single_context_seconds": null,
+          "reference_risk": 1.506712344933332,
+          "relative_excess_percent": 19.270092027286918,
+          "risk": 1.7970572003884777,
+          "seed": 260916,
+          "skipped": false
+        },
+        "sof": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 127.22409650008194,
+          "max_query_support": 227,
+          "maximum_acceptance_residual": 2.2641993545347017e-07,
+          "mean_query_support": 168.225,
+          "method": "sof",
+          "min_context_regret": 4.989696718937786e-05,
+          "reference_risk": 1.506712344933332,
+          "relative_excess_percent": 1.776933551743121,
+          "risk": 1.5334856221187079,
+          "seed": 260916,
+          "tree_count": 100,
+          "validation_loss": 1.510050514003307
+        }
+      },
+      "reference_risk": 1.506712344933332,
+      "seed": 260916
+    },
+    {
+      "application": "capacity",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          4
+        ],
+        "d_b": [
+          3
+        ],
+        "max_K": 4,
+        "parameter_count": 39,
+        "seed": 260917,
+        "selected_step": 800,
+        "stored_K": 4,
+        "validation_loss": 1.6783734931741279
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 858.90625,
+          "construction_wall_seconds": 126.21083769993857,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.978467613072965e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas",
+          "min_context_regret": 8.877658090433727e-06,
+          "parameter_count": 39,
+          "reference_risk": 1.6954264906678593,
+          "relative_excess_percent": 0.08743660246680772,
+          "risk": 1.6969089139886215,
+          "seed": 260917,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 800,
+          "stored_K": 4,
+          "validation_loss": 1.6783734931741279
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 46.68234999990091,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.913515368656693e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas_init",
+          "min_context_regret": 1.563434969464872e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.6954264906678593,
+          "relative_excess_percent": 0.05677380434136814,
+          "risk": 1.6963890487864228,
+          "seed": 260917,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 4,
+          "validation_loss": 1.6818203725857475
+        },
+        "iceo_a": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 9781.0,
+          "construction_wall_seconds": 498.5496701998636,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.495531561090946e-07,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 3.399388980085405e-06,
+          "parameter_count": 17844,
+          "reference_risk": 1.6954264906678593,
+          "relative_excess_percent": 0.4165354984963839,
+          "risk": 1.7024885438524024,
+          "seed": 260917,
+          "selected_step": 800,
+          "validation_loss": 1.6847267582824101
+        },
+        "iceo_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 56.890625,
+          "construction_wall_seconds": 95.37411420000717,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.208806220953651e-07,
+          "mean_query_support": 4.0,
+          "method": "iceo_sr",
+          "min_context_regret": 2.1399585546033606e-05,
+          "parameter_count": 1476,
+          "reference_risk": 1.6954264906678593,
+          "relative_excess_percent": 0.3626685779310791,
+          "risk": 1.7015752698114313,
+          "seed": 260917,
+          "selected_step": 800,
+          "validation_loss": 1.6864734544405644
+        },
+        "knn": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 690.953125,
+          "construction_wall_seconds": 52.86762539995834,
+          "max_query_support": 32,
+          "maximum_acceptance_residual": 1.469893460837035e-07,
+          "mean_query_support": 30.585,
+          "method": "knn",
+          "min_context_regret": 0.00015495561102762956,
+          "reference_risk": 1.6954264906678593,
+          "relative_excess_percent": 2.5605214255508475,
+          "risk": 1.7388382492158747,
+          "seed": 260917,
+          "selected_k": 32,
+          "validation_loss": 1.7108425140503487
+        },
+        "knn_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 690.953125,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 52.86762539995834,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.624187193072224e-07,
+          "mean_query_support": 4.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.00012167479979918738,
+          "reference_risk": 1.6954264906678593,
+          "relative_excess_percent": 2.5104753446926606,
+          "risk": 1.737989754703464,
+          "seed": 260917,
+          "selected_k": 32,
+          "validation_loss": 1.7108425140503487
+        },
+        "saa": {
+          "application": "capacity",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0006498000584542751,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 6.232982852072411e-09,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 0.00046513871846931565,
+          "probe_single_context_seconds": null,
+          "reference_risk": 1.6954264906678593,
+          "relative_excess_percent": 24.076865920663984,
+          "risk": 2.1036320536093784,
+          "seed": 260917,
+          "skipped": false
+        },
+        "sof": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 127.72709500021301,
+          "max_query_support": 222,
+          "maximum_acceptance_residual": 1.2913474736753194e-07,
+          "mean_query_support": 161.005,
+          "method": "sof",
+          "min_context_regret": 6.341835253143024e-05,
+          "reference_risk": 1.6954264906678593,
+          "relative_excess_percent": 2.4173196723614585,
+          "risk": 1.736410368757201,
+          "seed": 260917,
+          "tree_count": 100,
+          "validation_loss": 1.7162229242130451
+        }
+      },
+      "reference_risk": 1.6954264906678593,
+      "seed": 260917
+    },
+    {
+      "application": "capacity",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          4
+        ],
+        "d_b": [
+          3
+        ],
+        "max_K": 4,
+        "parameter_count": 39,
+        "seed": 260918,
+        "selected_step": 1200,
+        "stored_K": 4,
+        "validation_loss": 1.5155827819327492
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 925.59375,
+          "construction_wall_seconds": 134.910161399981,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.2971817139884045e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas",
+          "min_context_regret": 1.7945850653955375e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.4934852872872846,
+          "relative_excess_percent": 0.1184891413904236,
+          "risk": 1.4952549051809836,
+          "seed": 260918,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 1200,
+          "stored_K": 4,
+          "validation_loss": 1.5155827819327492
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 50.87776640010998,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.586851297585845e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas_init",
+          "min_context_regret": 2.660153521705233e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.4934852872872846,
+          "relative_excess_percent": 0.05505844393016058,
+          "risk": 1.4943075770467908,
+          "seed": 260918,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 4,
+          "validation_loss": 1.518057292940154
+        },
+        "iceo_a": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 10021.9375,
+          "construction_wall_seconds": 537.0217255000025,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.6886252429682003e-07,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 1.2653076976842925e-05,
+          "parameter_count": 17844,
+          "reference_risk": 1.4934852872872846,
+          "relative_excess_percent": 0.2505477799905316,
+          "risk": 1.497227181519068,
+          "seed": 260918,
+          "selected_step": 1600,
+          "validation_loss": 1.5225276090261415
+        },
+        "iceo_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 55.609375,
+          "construction_wall_seconds": 84.95857169991359,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.2299093130052619e-07,
+          "mean_query_support": 4.0,
+          "method": "iceo_sr",
+          "min_context_regret": 3.153470086436627e-05,
+          "parameter_count": 1476,
+          "reference_risk": 1.4934852872872846,
+          "relative_excess_percent": 0.42968298560890966,
+          "risk": 1.4999025394593304,
+          "seed": 260918,
+          "selected_step": 1200,
+          "validation_loss": 1.5223666680056962
+        },
+        "knn": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 683.203125,
+          "construction_wall_seconds": 52.66324119991623,
+          "max_query_support": 121,
+          "maximum_acceptance_residual": 1.518288859636563e-07,
+          "mean_query_support": 107.595,
+          "method": "knn",
+          "min_context_regret": 2.4559232641330198e-05,
+          "reference_risk": 1.4934852872872846,
+          "relative_excess_percent": 1.652609001969042,
+          "risk": 1.5181667595880775,
+          "seed": 260918,
+          "selected_k": 128,
+          "validation_loss": 1.5336344985002617
+        },
+        "knn_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 683.203125,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 52.66324119991623,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.441904243226766e-07,
+          "mean_query_support": 4.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.00019452100976447007,
+          "reference_risk": 1.4934852872872846,
+          "relative_excess_percent": 1.564910483917023,
+          "risk": 1.5168569951238016,
+          "seed": 260918,
+          "selected_k": 128,
+          "validation_loss": 1.5336344985002617
+        },
+        "saa": {
+          "application": "capacity",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.000567000126466155,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.544201261305389e-08,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 0.00035806667819726634,
+          "probe_single_context_seconds": null,
+          "reference_risk": 1.4934852872872846,
+          "relative_excess_percent": 21.334630048334194,
+          "risk": 1.8121148481563278,
+          "seed": 260918,
+          "skipped": false
+        },
+        "sof": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 125.06078279996291,
+          "max_query_support": 225,
+          "maximum_acceptance_residual": 1.0103849407139265e-07,
+          "mean_query_support": 160.475,
+          "method": "sof",
+          "min_context_regret": 7.542589640086028e-05,
+          "reference_risk": 1.4934852872872846,
+          "relative_excess_percent": 2.0727161491700894,
+          "risk": 1.5244409980223674,
+          "seed": 260918,
+          "tree_count": 100,
+          "validation_loss": 1.5446701777831815
+        }
+      },
+      "reference_risk": 1.4934852872872846,
+      "seed": 260918
+    },
+    {
+      "application": "capacity",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          4
+        ],
+        "d_b": [
+          3
+        ],
+        "max_K": 4,
+        "parameter_count": 39,
+        "seed": 260919,
+        "selected_step": 0,
+        "stored_K": 4,
+        "validation_loss": 1.6244203945242783
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 1113.5625,
+          "construction_wall_seconds": 143.46406359993853,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.295364502051921e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas",
+          "min_context_regret": 2.0293896001444267e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.63526916995531,
+          "relative_excess_percent": 0.03773736058023036,
+          "risk": 1.6358862773784333,
+          "seed": 260919,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 4,
+          "validation_loss": 1.6244203945242783
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 44.27724099997431,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.295364502051921e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas_init",
+          "min_context_regret": 2.0293896001444267e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.63526916995531,
+          "relative_excess_percent": 0.03773736058023036,
+          "risk": 1.6358862773784333,
+          "seed": 260919,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 4,
+          "validation_loss": 1.6244203945242783
+        },
+        "iceo_a": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 10347.890625,
+          "construction_wall_seconds": 555.5947861999739,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 2.018633493694466e-07,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 8.300304977559847e-06,
+          "parameter_count": 17844,
+          "reference_risk": 1.63526916995531,
+          "relative_excess_percent": 0.4955365590422054,
+          "risk": 1.6433725265311845,
+          "seed": 260919,
+          "selected_step": 1600,
+          "validation_loss": 1.6328792355661599
+        },
+        "iceo_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 57.953125,
+          "construction_wall_seconds": 95.97299819998443,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.2770846063991925e-07,
+          "mean_query_support": 4.0,
+          "method": "iceo_sr",
+          "min_context_regret": 3.548759485338948e-05,
+          "parameter_count": 1476,
+          "reference_risk": 1.63526916995531,
+          "relative_excess_percent": 0.509678030335638,
+          "risk": 1.643603777651424,
+          "seed": 260919,
+          "selected_step": 1200,
+          "validation_loss": 1.634191248574296
+        },
+        "knn": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 660.421875,
+          "construction_wall_seconds": 50.29663100000471,
+          "max_query_support": 119,
+          "maximum_acceptance_residual": 1.4303311179908462e-07,
+          "mean_query_support": 107.91,
+          "method": "knn",
+          "min_context_regret": 0.00046228547404880693,
+          "reference_risk": 1.63526916995531,
+          "relative_excess_percent": 2.3473212883358108,
+          "risk": 1.6736541913032632,
+          "seed": 260919,
+          "selected_k": 128,
+          "validation_loss": 1.6613484544340869
+        },
+        "knn_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 660.421875,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 50.29663100000471,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.4622054650414995e-07,
+          "mean_query_support": 4.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.0005229121928504998,
+          "reference_risk": 1.63526916995531,
+          "relative_excess_percent": 2.2577337236407375,
+          "risk": 1.672189193477691,
+          "seed": 260919,
+          "selected_k": 128,
+          "validation_loss": 1.6613484544340869
+        },
+        "saa": {
+          "application": "capacity",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0005146998446434736,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 5.713138823137953e-09,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 0.00013567226374955332,
+          "probe_single_context_seconds": null,
+          "reference_risk": 1.63526916995531,
+          "relative_excess_percent": 21.94428078930083,
+          "risk": 1.994117228271172,
+          "seed": 260919,
+          "skipped": false
+        },
+        "sof": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 142.9601044000592,
+          "max_query_support": 226,
+          "maximum_acceptance_residual": 1.8140365670715752e-07,
+          "mean_query_support": 163.82,
+          "method": "sof",
+          "min_context_regret": 6.611292251879064e-05,
+          "reference_risk": 1.63526916995531,
+          "relative_excess_percent": 2.619187137386794,
+          "risk": 1.6780999297164312,
+          "seed": 260919,
+          "tree_count": 100,
+          "validation_loss": 1.6726916181822993
+        }
+      },
+      "reference_risk": 1.63526916995531,
+      "seed": 260919
+    },
+    {
+      "application": "capacity",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          4
+        ],
+        "d_b": [
+          3
+        ],
+        "max_K": 4,
+        "parameter_count": 39,
+        "seed": 260920,
+        "selected_step": 800,
+        "stored_K": 4,
+        "validation_loss": 1.6063815763534803
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 897.859375,
+          "construction_wall_seconds": 129.26557249994949,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.2089887332922267e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas",
+          "min_context_regret": 2.235893598556693e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.5895320340213501,
+          "relative_excess_percent": 0.04764108384262512,
+          "risk": 1.5902893043103836,
+          "seed": 260920,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 800,
+          "stored_K": 4,
+          "validation_loss": 1.6063815763534803
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 46.47536729997955,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 4,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.5393714544731374e-07,
+          "mean_query_support": 4.0,
+          "method": "atlas_init",
+          "min_context_regret": 1.4863556430988467e-05,
+          "parameter_count": 39,
+          "reference_risk": 1.5895320340213501,
+          "relative_excess_percent": 0.02651489349403245,
+          "risk": 1.5899534967472244,
+          "seed": 260920,
+          "selected_B": 1,
+          "selected_K": [
+            4
+          ],
+          "selected_q": [
+            3
+          ],
+          "selected_step": 0,
+          "stored_K": 4,
+          "validation_loss": 1.6069089099296716
+        },
+        "iceo_a": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 10804.265625,
+          "construction_wall_seconds": 611.598888799781,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.5582005746805905e-07,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 2.7537543970446166e-05,
+          "parameter_count": 17844,
+          "reference_risk": 1.5895320340213501,
+          "relative_excess_percent": 0.4065607380424637,
+          "risk": 1.5959944471902887,
+          "seed": 260920,
+          "selected_step": 1200,
+          "validation_loss": 1.6129629891426487
+        },
+        "iceo_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 59.59375,
+          "construction_wall_seconds": 94.68756320001557,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.646022368129163e-07,
+          "mean_query_support": 4.0,
+          "method": "iceo_sr",
+          "min_context_regret": 4.5161036635876783e-05,
+          "parameter_count": 1476,
+          "reference_risk": 1.5895320340213501,
+          "relative_excess_percent": 0.42487390305568423,
+          "risk": 1.596285540814617,
+          "seed": 260920,
+          "selected_step": 1200,
+          "validation_loss": 1.613309454103765
+        },
+        "knn": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 673.71875,
+          "construction_wall_seconds": 51.213869999861345,
+          "max_query_support": 63,
+          "maximum_acceptance_residual": 2.0649894375002198e-07,
+          "mean_query_support": 58.335,
+          "method": "knn",
+          "min_context_regret": 0.0003074258155748577,
+          "reference_risk": 1.5895320340213501,
+          "relative_excess_percent": 2.043256497957178,
+          "risk": 1.6220102505936023,
+          "seed": 260920,
+          "selected_k": 64,
+          "validation_loss": 1.641514581416231
+        },
+        "knn_sr": {
+          "K_match": 4,
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": 673.71875,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 51.213869999861345,
+          "max_query_support": 4,
+          "maximum_acceptance_residual": 1.5937283628919552e-07,
+          "mean_query_support": 4.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.0002722097233482934,
+          "reference_risk": 1.5895320340213501,
+          "relative_excess_percent": 1.9524523488589385,
+          "risk": 1.6205668895554652,
+          "seed": 260920,
+          "selected_k": 64,
+          "validation_loss": 1.641514581416231
+        },
+        "saa": {
+          "application": "capacity",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0004932000301778316,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.4257089037128523e-08,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 0.007611738734633944,
+          "probe_single_context_seconds": null,
+          "reference_risk": 1.5895320340213501,
+          "relative_excess_percent": 24.574432566922273,
+          "risk": 1.9801505118515548,
+          "seed": 260920,
+          "skipped": false
+        },
+        "sof": {
+          "application": "capacity",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 127.13519200007431,
+          "max_query_support": 232,
+          "maximum_acceptance_residual": 1.757053919582141e-07,
+          "mean_query_support": 165.985,
+          "method": "sof",
+          "min_context_regret": 2.6499834810733702e-05,
+          "reference_risk": 1.5895320340213501,
+          "relative_excess_percent": 2.6059766222459597,
+          "risk": 1.6309548672310572,
+          "seed": 260920,
+          "tree_count": 100,
+          "validation_loss": 1.6488719708399118
+        }
+      },
+      "reference_risk": 1.5895320340213501,
+      "seed": 260920
+    },
+    {
+      "application": "portfolio",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          14
+        ],
+        "d_b": [
+          13
+        ],
+        "max_K": 14,
+        "parameter_count": 299,
+        "seed": 260911,
+        "selected_step": 1600,
+        "stored_K": 14,
+        "validation_loss": 0.0379704859193415
+      },
+      "methods": {
+        "atlas": {
+          "application": "portfolio",
+          "max_K": 14,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.860493019523922e-10,
+          "mean_query_support": 14.0,
+          "method": "atlas",
+          "min_context_regret": 0.00028455229224997464,
+          "parameter_count": 299,
+          "reference_risk": 0.03813519466024778,
+          "relative_excess_percent": 3.0998883419056495,
+          "risk": 0.039317343113683824,
+          "seed": 260911,
+          "selected_B": 1,
+          "selected_K": [
+            14
+          ],
+          "selected_q": [
+            13
+          ],
+          "selected_step": 1600,
+          "stored_K": 14,
+          "validation_loss": 0.0379704859193415
+        },
+        "atlas_init": {
+          "application": "portfolio",
+          "max_K": 14,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.96631491680294e-10,
+          "mean_query_support": 14.0,
+          "method": "atlas_init",
+          "min_context_regret": 0.01050607280068841,
+          "parameter_count": 299,
+          "reference_risk": 0.03813519466024778,
+          "relative_excess_percent": 78.21744520871268,
+          "risk": 0.067963569648863,
+          "seed": 260911,
+          "selected_B": 1,
+          "selected_K": [
+            14
+          ],
+          "selected_q": [
+            13
+          ],
+          "selected_step": 0,
+          "stored_K": 14
+        },
+        "iceo_a": {
+          "application": "portfolio",
+          "method": "iceo_a",
+          "reference_risk": 0.03813519466024778,
+          "relative_excess_percent": 3.06684335501543,
+          "risk": 0.039304741343607785,
+          "seed": 260911
+        },
+        "iceo_sr": {
+          "K_match": 14,
+          "application": "portfolio",
+          "method": "iceo_sr",
+          "parameter_count": 1806,
+          "reference_risk": 0.03813519466024778,
+          "relative_excess_percent": 3.85880004043016,
+          "risk": 0.03960675556721554,
+          "seed": 260911,
+          "selected_k": null,
+          "selected_step": 1600,
+          "validation_loss": 0.03763149703435203
+        },
+        "knn": {
+          "application": "portfolio",
+          "method": "knn",
+          "reference_risk": 0.03813519466024778,
+          "relative_excess_percent": 5.030770397365792,
+          "risk": 0.04005368874419334,
+          "seed": 260911
+        },
+        "knn_sr": {
+          "K_match": 14,
+          "application": "portfolio",
+          "method": "knn_sr",
+          "parameter_count": null,
+          "reference_risk": 0.03813519466024778,
+          "relative_excess_percent": 59.86843871659576,
+          "risk": 0.06096614030487272,
+          "seed": 260911,
+          "selected_k": 512,
+          "selected_step": null,
+          "validation_loss": null
+        },
+        "saa": {
+          "application": "portfolio",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.000395399983972311,
+          "max_query_support": 497,
+          "maximum_acceptance_residual": 4.815976922811771e-10,
+          "mean_query_support": 497.0,
+          "method": "saa",
+          "min_context_regret": 0.0006769536042833812,
+          "probe_single_context_seconds": null,
+          "reference_risk": 0.03813519466024778,
+          "relative_excess_percent": 16.811955291080867,
+          "risk": 0.04454646653669529,
+          "seed": 260911,
+          "skipped": false
+        },
+        "sof": {
+          "application": "portfolio",
+          "method": "sof",
+          "reference_risk": 0.03813519466024778,
+          "relative_excess_percent": 10.80625265176669,
+          "risk": 0.04225618014447719,
+          "seed": 260911
+        }
+      },
+      "reference_risk": 0.03813519466024778,
+      "seed": 260911
+    },
+    {
+      "application": "portfolio",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          14
+        ],
+        "d_b": [
+          13
+        ],
+        "max_K": 14,
+        "parameter_count": 299,
+        "seed": 260912,
+        "selected_step": 400,
+        "stored_K": 14,
+        "validation_loss": 0.037370842218074074
+      },
+      "methods": {
+        "atlas": {
+          "application": "portfolio",
+          "max_K": 14,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.969502824630078e-10,
+          "mean_query_support": 14.0,
+          "method": "atlas",
+          "min_context_regret": 0.00023349311880822843,
+          "parameter_count": 299,
+          "reference_risk": 0.035633985218188106,
+          "relative_excess_percent": 3.1219296195518944,
+          "risk": 0.036746453157341465,
+          "seed": 260912,
+          "selected_B": 1,
+          "selected_K": [
+            14
+          ],
+          "selected_q": [
+            13
+          ],
+          "selected_step": 400,
+          "stored_K": 14,
+          "validation_loss": 0.037370842218074074
+        },
+        "atlas_init": {
+          "application": "portfolio",
+          "max_K": 14,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.880250799784749e-10,
+          "mean_query_support": 14.0,
+          "method": "atlas_init",
+          "min_context_regret": 0.0009437587588155064,
+          "parameter_count": 299,
+          "reference_risk": 0.035633985218188106,
+          "relative_excess_percent": 7.5459113919748955,
+          "risk": 0.03832289416818201,
+          "seed": 260912,
+          "selected_B": 1,
+          "selected_K": [
+            14
+          ],
+          "selected_q": [
+            13
+          ],
+          "selected_step": 0,
+          "stored_K": 14
+        },
+        "iceo_a": {
+          "application": "portfolio",
+          "method": "iceo_a",
+          "reference_risk": 0.035633985218188106,
+          "relative_excess_percent": 3.2351321339296453,
+          "risk": 0.03678679172458145,
+          "seed": 260912
+        },
+        "iceo_sr": {
+          "K_match": 14,
+          "application": "portfolio",
+          "method": "iceo_sr",
+          "parameter_count": 1806,
+          "reference_risk": 0.035633985218188106,
+          "relative_excess_percent": 6.006685151328986,
+          "risk": 0.03777440651711578,
+          "seed": 260912,
+          "selected_k": null,
+          "selected_step": 400,
+          "validation_loss": 0.037835374558657105
+        },
+        "knn": {
+          "application": "portfolio",
+          "method": "knn",
+          "reference_risk": 0.035633985218188106,
+          "relative_excess_percent": 6.346846916042198,
+          "risk": 0.03789561971007161,
+          "seed": 260912
+        },
+        "knn_sr": {
+          "K_match": 14,
+          "application": "portfolio",
+          "method": "knn_sr",
+          "parameter_count": null,
+          "reference_risk": 0.035633985218188106,
+          "relative_excess_percent": 66.62765642245515,
+          "risk": 0.05937607445899093,
+          "seed": 260912,
+          "selected_k": 256,
+          "selected_step": null,
+          "validation_loss": null
+        },
+        "saa": {
+          "application": "portfolio",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0003458999563008547,
+          "max_query_support": 497,
+          "maximum_acceptance_residual": 8.318023700382149e-10,
+          "mean_query_support": 497.0,
+          "method": "saa",
+          "min_context_regret": 0.0008609608351406381,
+          "probe_single_context_seconds": null,
+          "reference_risk": 0.035633985218188106,
+          "relative_excess_percent": 19.7640172298355,
+          "risk": 0.04267669219638784,
+          "seed": 260912,
+          "skipped": false
+        },
+        "sof": {
+          "application": "portfolio",
+          "method": "sof",
+          "reference_risk": 0.035633985218188106,
+          "relative_excess_percent": 13.03208072953774,
+          "risk": 0.040277834938973925,
+          "seed": 260912
+        }
+      },
+      "reference_risk": 0.035633985218188106,
+      "seed": 260912
+    },
+    {
+      "application": "portfolio",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          18
+        ],
+        "d_b": [
+          17
+        ],
+        "max_K": 18,
+        "parameter_count": 459,
+        "seed": 260913,
+        "selected_step": 400,
+        "stored_K": 18,
+        "validation_loss": 0.03440488138611606
+      },
+      "methods": {
+        "atlas": {
+          "application": "portfolio",
+          "max_K": 18,
+          "max_query_support": 18,
+          "maximum_acceptance_residual": 9.937644720416964e-10,
+          "mean_query_support": 18.0,
+          "method": "atlas",
+          "min_context_regret": 0.0002481596044944939,
+          "parameter_count": 459,
+          "reference_risk": 0.035697027058433646,
+          "relative_excess_percent": 2.43144841634774,
+          "risk": 0.036564981857529155,
+          "seed": 260913,
+          "selected_B": 1,
+          "selected_K": [
+            18
+          ],
+          "selected_q": [
+            17
+          ],
+          "selected_step": 400,
+          "stored_K": 18,
+          "validation_loss": 0.03440488138611606
+        },
+        "atlas_init": {
+          "application": "portfolio",
+          "max_K": 18,
+          "max_query_support": 18,
+          "maximum_acceptance_residual": 1.0372508388069875e-08,
+          "mean_query_support": 18.0,
+          "method": "atlas_init",
+          "min_context_regret": 0.0006605995255097516,
+          "parameter_count": 459,
+          "reference_risk": 0.035697027058433646,
+          "relative_excess_percent": 4.443118132782859,
+          "risk": 0.037283088140531315,
+          "seed": 260913,
+          "selected_B": 1,
+          "selected_K": [
+            18
+          ],
+          "selected_q": [
+            17
+          ],
+          "selected_step": 0,
+          "stored_K": 18
+        },
+        "iceo_a": {
+          "application": "portfolio",
+          "method": "iceo_a",
+          "reference_risk": 0.035697027058433646,
+          "relative_excess_percent": 2.9383000651312834,
+          "risk": 0.036745912827741534,
+          "seed": 260913
+        },
+        "iceo_sr": {
+          "K_match": 18,
+          "application": "portfolio",
+          "method": "iceo_sr",
+          "parameter_count": 1938,
+          "reference_risk": 0.035697027058433646,
+          "relative_excess_percent": 3.6039585319046767,
+          "risk": 0.036983533110742386,
+          "seed": 260913,
+          "selected_k": null,
+          "selected_step": 1600,
+          "validation_loss": 0.034341803923943676
+        },
+        "knn": {
+          "application": "portfolio",
+          "method": "knn",
+          "reference_risk": 0.035697027058433646,
+          "relative_excess_percent": 5.013303200246745,
+          "risk": 0.03748662725834705,
+          "seed": 260913
+        },
+        "knn_sr": {
+          "K_match": 18,
+          "application": "portfolio",
+          "method": "knn_sr",
+          "parameter_count": null,
+          "reference_risk": 0.035697027058433646,
+          "relative_excess_percent": 36.441841972722024,
+          "risk": 0.048705681248027856,
+          "seed": 260913,
+          "selected_k": 256,
+          "selected_step": null,
+          "validation_loss": null
+        },
+        "saa": {
+          "application": "portfolio",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.00035360013134777546,
+          "max_query_support": 494,
+          "maximum_acceptance_residual": 1.0532836478005514e-09,
+          "mean_query_support": 494.0,
+          "method": "saa",
+          "min_context_regret": 0.000755948002998004,
+          "probe_single_context_seconds": null,
+          "reference_risk": 0.035697027058433646,
+          "relative_excess_percent": 15.976703313757607,
+          "risk": 0.04140023516339136,
+          "seed": 260913,
+          "skipped": false
+        },
+        "sof": {
+          "application": "portfolio",
+          "method": "sof",
+          "reference_risk": 0.035697027058433646,
+          "relative_excess_percent": 9.716568818093675,
+          "risk": 0.03916555325857987,
+          "seed": 260913
+        }
+      },
+      "reference_risk": 0.035697027058433646,
+      "seed": 260913
+    },
+    {
+      "application": "portfolio",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          17
+        ],
+        "d_b": [
+          16
+        ],
+        "max_K": 17,
+        "parameter_count": 416,
+        "seed": 260914,
+        "selected_step": 1600,
+        "stored_K": 17,
+        "validation_loss": 0.03857512734649838
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 443.71875,
+          "construction_wall_seconds": 119.52197180013172,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 17,
+          "max_query_support": 17,
+          "maximum_acceptance_residual": 1.7262507119057762e-08,
+          "mean_query_support": 17.0,
+          "method": "atlas",
+          "min_context_regret": 0.00015494367448389695,
+          "parameter_count": 416,
+          "reference_risk": 0.03769741705005545,
+          "relative_excess_percent": 2.620308748333206,
+          "risk": 0.038685205766913706,
+          "seed": 260914,
+          "selected_B": 1,
+          "selected_K": [
+            17
+          ],
+          "selected_q": [
+            16
+          ],
+          "selected_step": 1600,
+          "stored_K": 17,
+          "validation_loss": 0.03857512734649838
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 46.294469099957496,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 17,
+          "max_query_support": 17,
+          "maximum_acceptance_residual": 9.975831530205633e-10,
+          "mean_query_support": 17.0,
+          "method": "atlas_init",
+          "min_context_regret": 0.0005174780965086986,
+          "parameter_count": 416,
+          "reference_risk": 0.03769741705005545,
+          "relative_excess_percent": 4.542299619928797,
+          "risk": 0.03940974668144309,
+          "seed": 260914,
+          "selected_B": 1,
+          "selected_K": [
+            17
+          ],
+          "selected_q": [
+            16
+          ],
+          "selected_step": 0,
+          "stored_K": 17,
+          "validation_loss": 0.039553848835821484
+        },
+        "iceo_a": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 5273.609375,
+          "construction_wall_seconds": 339.94746110006236,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 4.9261261798883016e-08,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 0.00013602925776060731,
+          "parameter_count": 17844,
+          "reference_risk": 0.03769741705005545,
+          "relative_excess_percent": 2.8139330157400577,
+          "risk": 0.03875819711450818,
+          "seed": 260914,
+          "selected_step": 1600,
+          "validation_loss": 0.03852755125216057
+        },
+        "iceo_sr": {
+          "K_match": 17,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 18.71875,
+          "construction_wall_seconds": 106.09481779998168,
+          "max_query_support": 17,
+          "maximum_acceptance_residual": 2.6541880582839432e-08,
+          "mean_query_support": 17.0,
+          "method": "iceo_sr",
+          "min_context_regret": 0.00032152272238528123,
+          "parameter_count": 1905,
+          "reference_risk": 0.03769741705005545,
+          "relative_excess_percent": 3.2831841783801523,
+          "risk": 0.03893509268230085,
+          "seed": 260914,
+          "selected_step": 1600,
+          "validation_loss": 0.03884445503617624
+        },
+        "knn": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 326.6875,
+          "construction_wall_seconds": 44.88447030005045,
+          "max_query_support": 294,
+          "maximum_acceptance_residual": 2.2117083897952e-08,
+          "mean_query_support": 271.05,
+          "method": "knn",
+          "min_context_regret": 0.00038646734489231754,
+          "reference_risk": 0.03769741705005545,
+          "relative_excess_percent": 4.894150560259283,
+          "risk": 0.03954238539781402,
+          "seed": 260914,
+          "selected_k": 512,
+          "validation_loss": 0.039595445571153735
+        },
+        "knn_sr": {
+          "K_match": 17,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 326.6875,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 44.88447030005045,
+          "max_query_support": 17,
+          "maximum_acceptance_residual": 1.8758157055628586e-08,
+          "mean_query_support": 17.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.0009431645246254644,
+          "reference_risk": 0.03769741705005545,
+          "relative_excess_percent": 25.12730915960153,
+          "risk": 0.04716976357740722,
+          "seed": 260914,
+          "selected_k": 512,
+          "validation_loss": 0.039595445571153735
+        },
+        "saa": {
+          "application": "portfolio",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0006456999108195305,
+          "max_query_support": 497,
+          "maximum_acceptance_residual": 3.2023947382775475e-10,
+          "mean_query_support": 497.0,
+          "method": "saa",
+          "min_context_regret": 0.000938148710715743,
+          "probe_single_context_seconds": null,
+          "reference_risk": 0.03769741705005545,
+          "relative_excess_percent": 16.45795024654629,
+          "risk": 0.043901639192386634,
+          "seed": 260914,
+          "skipped": false
+        },
+        "sof": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 80.56498350016773,
+          "max_query_support": 233,
+          "maximum_acceptance_residual": 1.988358169803772e-08,
+          "mean_query_support": 177.845,
+          "method": "sof",
+          "min_context_regret": 0.0006636455937473057,
+          "reference_risk": 0.03769741705005545,
+          "relative_excess_percent": 10.295781260762453,
+          "risk": 0.04157866065048653,
+          "seed": 260914,
+          "tree_count": 100,
+          "validation_loss": 0.039935811565031114
+        }
+      },
+      "reference_risk": 0.03769741705005545,
+      "seed": 260914
+    },
+    {
+      "application": "portfolio",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          14
+        ],
+        "d_b": [
+          13
+        ],
+        "max_K": 14,
+        "parameter_count": 299,
+        "seed": 260915,
+        "selected_step": 400,
+        "stored_K": 14,
+        "validation_loss": 0.0401385311914924
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 401.921875,
+          "construction_wall_seconds": 116.90429420000874,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 14,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.972253647201135e-10,
+          "mean_query_support": 14.0,
+          "method": "atlas",
+          "min_context_regret": 0.00017057373013196903,
+          "parameter_count": 299,
+          "reference_risk": 0.03912394822754802,
+          "relative_excess_percent": 2.623775084779886,
+          "risk": 0.04015047263332461,
+          "seed": 260915,
+          "selected_B": 1,
+          "selected_K": [
+            14
+          ],
+          "selected_q": [
+            13
+          ],
+          "selected_step": 400,
+          "stored_K": 14,
+          "validation_loss": 0.0401385311914924
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 46.55388160003349,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 14,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.991508652949271e-10,
+          "mean_query_support": 14.0,
+          "method": "atlas_init",
+          "min_context_regret": 0.0007884974411970364,
+          "parameter_count": 299,
+          "reference_risk": 0.03912394822754802,
+          "relative_excess_percent": 9.625930792657087,
+          "risk": 0.04288999240728678,
+          "seed": 260915,
+          "selected_B": 1,
+          "selected_K": [
+            14
+          ],
+          "selected_q": [
+            13
+          ],
+          "selected_step": 0,
+          "stored_K": 14,
+          "validation_loss": 0.042813411013396974
+        },
+        "iceo_a": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 5412.984375,
+          "construction_wall_seconds": 351.6825210999232,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.8052883115766132e-08,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 0.00021301065043349138,
+          "parameter_count": 17844,
+          "reference_risk": 0.03912394822754802,
+          "relative_excess_percent": 3.9728794836361407,
+          "risk": 0.0406782955398687,
+          "seed": 260915,
+          "selected_step": 1600,
+          "validation_loss": 0.040584246201518126
+        },
+        "iceo_sr": {
+          "K_match": 14,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 16.59375,
+          "construction_wall_seconds": 83.54458660003729,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 2.0447464093158835e-09,
+          "mean_query_support": 14.0,
+          "method": "iceo_sr",
+          "min_context_regret": 0.0004738172506295671,
+          "parameter_count": 1806,
+          "reference_risk": 0.03912394822754802,
+          "relative_excess_percent": 3.9459471974707623,
+          "risk": 0.040667758566172864,
+          "seed": 260915,
+          "selected_step": 1600,
+          "validation_loss": 0.04086498842889573
+        },
+        "knn": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 328.453125,
+          "construction_wall_seconds": 39.35980310011655,
+          "max_query_support": 296,
+          "maximum_acceptance_residual": 3.206955504562083e-08,
+          "mean_query_support": 273.76,
+          "method": "knn",
+          "min_context_regret": 0.00036364069203147914,
+          "reference_risk": 0.03912394822754802,
+          "relative_excess_percent": 4.815431031598314,
+          "risk": 0.04100793497128383,
+          "seed": 260915,
+          "selected_k": 512,
+          "validation_loss": 0.04110857410912911
+        },
+        "knn_sr": {
+          "K_match": 14,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 328.453125,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 39.35980310011655,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.982081417408959e-10,
+          "mean_query_support": 14.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.0012326933927814601,
+          "reference_risk": 0.03912394822754802,
+          "relative_excess_percent": 46.73824745320648,
+          "risk": 0.05740979596360381,
+          "seed": 260915,
+          "selected_k": 512,
+          "validation_loss": 0.04110857410912911
+        },
+        "saa": {
+          "application": "portfolio",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0004632000345736742,
+          "max_query_support": 497,
+          "maximum_acceptance_residual": 7.490607578652941e-10,
+          "mean_query_support": 497.0,
+          "method": "saa",
+          "min_context_regret": 0.0009013250767033326,
+          "probe_single_context_seconds": null,
+          "reference_risk": 0.03912394822754802,
+          "relative_excess_percent": 15.821198325443206,
+          "risk": 0.045313825669372115,
+          "seed": 260915,
+          "skipped": false
+        },
+        "sof": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 74.62919660005718,
+          "max_query_support": 211,
+          "maximum_acceptance_residual": 7.271643891233106e-08,
+          "mean_query_support": 175.81,
+          "method": "sof",
+          "min_context_regret": 0.0010642737577073874,
+          "reference_risk": 0.03912394822754802,
+          "relative_excess_percent": 10.026851889366243,
+          "risk": 0.04304684856959659,
+          "seed": 260915,
+          "tree_count": 100,
+          "validation_loss": 0.04270802221120668
+        }
+      },
+      "reference_risk": 0.03912394822754802,
+      "seed": 260915
+    },
+    {
+      "application": "portfolio",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          13
+        ],
+        "d_b": [
+          12
+        ],
+        "max_K": 13,
+        "parameter_count": 264,
+        "seed": 260916,
+        "selected_step": 1600,
+        "stored_K": 13,
+        "validation_loss": 0.03589140217885199
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 394.671875,
+          "construction_wall_seconds": 115.67665259982459,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 13,
+          "max_query_support": 13,
+          "maximum_acceptance_residual": 9.987704555478243e-10,
+          "mean_query_support": 13.0,
+          "method": "atlas",
+          "min_context_regret": 0.00015985864830578983,
+          "parameter_count": 264,
+          "reference_risk": 0.03624698265254503,
+          "relative_excess_percent": 2.4090264765342164,
+          "risk": 0.0371201820615896,
+          "seed": 260916,
+          "selected_B": 1,
+          "selected_K": [
+            13
+          ],
+          "selected_q": [
+            12
+          ],
+          "selected_step": 1600,
+          "stored_K": 13,
+          "validation_loss": 0.03589140217885199
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 53.4399274000898,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 13,
+          "max_query_support": 13,
+          "maximum_acceptance_residual": 9.96300759814746e-10,
+          "mean_query_support": 13.0,
+          "method": "atlas_init",
+          "min_context_regret": 0.0030783129247796623,
+          "parameter_count": 264,
+          "reference_risk": 0.03624698265254503,
+          "relative_excess_percent": 38.512266826106256,
+          "risk": 0.05020651732810562,
+          "seed": 260916,
+          "selected_B": 1,
+          "selected_K": [
+            13
+          ],
+          "selected_q": [
+            12
+          ],
+          "selected_step": 0,
+          "stored_K": 13,
+          "validation_loss": 0.05006408270955731
+        },
+        "iceo_a": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 4834.8125,
+          "construction_wall_seconds": 313.56074470002204,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.0052390402720546e-07,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 5.147180261466655e-05,
+          "parameter_count": 17844,
+          "reference_risk": 0.03624698265254503,
+          "relative_excess_percent": 3.120688122849314,
+          "risk": 0.03737813793507425,
+          "seed": 260916,
+          "selected_step": 1200,
+          "validation_loss": 0.036095252083380186
+        },
+        "iceo_sr": {
+          "K_match": 13,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 17.53125,
+          "construction_wall_seconds": 80.01949099986814,
+          "max_query_support": 13,
+          "maximum_acceptance_residual": 6.992833930928833e-09,
+          "mean_query_support": 13.0,
+          "method": "iceo_sr",
+          "min_context_regret": 0.0005622281482260405,
+          "parameter_count": 1773,
+          "reference_risk": 0.03624698265254503,
+          "relative_excess_percent": 4.594396805463601,
+          "risk": 0.037912312865610504,
+          "seed": 260916,
+          "selected_step": 1200,
+          "validation_loss": 0.03687070274457848
+        },
+        "knn": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 309.203125,
+          "construction_wall_seconds": 38.309937899932265,
+          "max_query_support": 200,
+          "maximum_acceptance_residual": 8.567637829480727e-09,
+          "mean_query_support": 179.27,
+          "method": "knn",
+          "min_context_regret": 0.0004988191415785312,
+          "reference_risk": 0.03624698265254503,
+          "relative_excess_percent": 4.835419634477612,
+          "risk": 0.037999676368631885,
+          "seed": 260916,
+          "selected_k": 256,
+          "validation_loss": 0.03684114029311212
+        },
+        "knn_sr": {
+          "K_match": 13,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 309.203125,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 38.309937899932265,
+          "max_query_support": 13,
+          "maximum_acceptance_residual": 1.4830878641550458e-08,
+          "mean_query_support": 13.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.0012963427181920326,
+          "reference_risk": 0.03624698265254503,
+          "relative_excess_percent": 58.79332696124248,
+          "risk": 0.05755778967704067,
+          "seed": 260916,
+          "selected_k": 256,
+          "validation_loss": 0.03684114029311212
+        },
+        "saa": {
+          "application": "portfolio",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0007030998822301626,
+          "max_query_support": 494,
+          "maximum_acceptance_residual": 1.4816179498555737e-08,
+          "mean_query_support": 494.0,
+          "method": "saa",
+          "min_context_regret": 0.0002781278404765039,
+          "probe_single_context_seconds": null,
+          "reference_risk": 0.03624698265254503,
+          "relative_excess_percent": 14.147200255791006,
+          "risk": 0.0413749158750824,
+          "seed": 260916,
+          "skipped": false
+        },
+        "sof": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 72.00636889995076,
+          "max_query_support": 214,
+          "maximum_acceptance_residual": 1.986119660971563e-08,
+          "mean_query_support": 181.035,
+          "method": "sof",
+          "min_context_regret": 0.000672700303411447,
+          "reference_risk": 0.03624698265254503,
+          "relative_excess_percent": 9.79680891195295,
+          "risk": 0.0397980302793636,
+          "seed": 260916,
+          "tree_count": 100,
+          "validation_loss": 0.03847775105179343
+        }
+      },
+      "reference_risk": 0.03624698265254503,
+      "seed": 260916
+    },
+    {
+      "application": "portfolio",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          14
+        ],
+        "d_b": [
+          13
+        ],
+        "max_K": 14,
+        "parameter_count": 299,
+        "seed": 260917,
+        "selected_step": 1600,
+        "stored_K": 14,
+        "validation_loss": 0.03774741663793782
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 399.765625,
+          "construction_wall_seconds": 113.04420139989816,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 14,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.890174704000842e-10,
+          "mean_query_support": 14.0,
+          "method": "atlas",
+          "min_context_regret": 0.00012220725106854013,
+          "parameter_count": 299,
+          "reference_risk": 0.0370864379847302,
+          "relative_excess_percent": 3.154852488552633,
+          "risk": 0.03825646039640699,
+          "seed": 260917,
+          "selected_B": 1,
+          "selected_K": [
+            14
+          ],
+          "selected_q": [
+            13
+          ],
+          "selected_step": 1600,
+          "stored_K": 14,
+          "validation_loss": 0.03774741663793782
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 43.5507756001316,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 14,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.919034877444823e-10,
+          "mean_query_support": 14.0,
+          "method": "atlas_init",
+          "min_context_regret": 0.0031667317990356943,
+          "parameter_count": 299,
+          "reference_risk": 0.0370864379847302,
+          "relative_excess_percent": 47.4531856916807,
+          "risk": 0.05468513426805423,
+          "seed": 260917,
+          "selected_B": 1,
+          "selected_K": [
+            14
+          ],
+          "selected_q": [
+            13
+          ],
+          "selected_step": 0,
+          "stored_K": 14,
+          "validation_loss": 0.05652212661822965
+        },
+        "iceo_a": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 5374.640625,
+          "construction_wall_seconds": 354.3918715000618,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 4.0962349439433846e-08,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 0.00021082694218172576,
+          "parameter_count": 17844,
+          "reference_risk": 0.0370864379847302,
+          "relative_excess_percent": 3.382841458906027,
+          "risk": 0.038341013384509126,
+          "seed": 260917,
+          "selected_step": 1200,
+          "validation_loss": 0.037543300549865995
+        },
+        "iceo_sr": {
+          "K_match": 14,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 20.125,
+          "construction_wall_seconds": 85.6706208998803,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.999192369281696e-10,
+          "mean_query_support": 14.0,
+          "method": "iceo_sr",
+          "min_context_regret": 0.0006749575443823069,
+          "parameter_count": 1806,
+          "reference_risk": 0.0370864379847302,
+          "relative_excess_percent": 6.937020321443442,
+          "risk": 0.039659131724230454,
+          "seed": 260917,
+          "selected_step": 1600,
+          "validation_loss": 0.03991516174842412
+        },
+        "knn": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 325.625,
+          "construction_wall_seconds": 39.1473038000986,
+          "max_query_support": 301,
+          "maximum_acceptance_residual": 2.8133529520622555e-08,
+          "mean_query_support": 276.155,
+          "method": "knn",
+          "min_context_regret": 0.0006241535644761556,
+          "reference_risk": 0.0370864379847302,
+          "relative_excess_percent": 5.1119602483862545,
+          "risk": 0.03898228195205203,
+          "seed": 260917,
+          "selected_k": 512,
+          "validation_loss": 0.0386810017216028
+        },
+        "knn_sr": {
+          "K_match": 14,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 325.625,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 39.1473038000986,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.997055596454182e-10,
+          "mean_query_support": 14.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.0020573047768469993,
+          "reference_risk": 0.0370864379847302,
+          "relative_excess_percent": 70.35513589675728,
+          "risk": 0.06317865182815374,
+          "seed": 260917,
+          "selected_k": 512,
+          "validation_loss": 0.0386810017216028
+        },
+        "saa": {
+          "application": "portfolio",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0005256000440567732,
+          "max_query_support": 499,
+          "maximum_acceptance_residual": 9.497634623212292e-10,
+          "mean_query_support": 499.0,
+          "method": "saa",
+          "min_context_regret": 0.0008326920389307157,
+          "probe_single_context_seconds": null,
+          "reference_risk": 0.0370864379847302,
+          "relative_excess_percent": 16.894604900950608,
+          "risk": 0.04335204515408644,
+          "seed": 260917,
+          "skipped": false
+        },
+        "sof": {
+          "application": "portfolio",
+          "attempts": 2,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 73.35454350011423,
+          "max_query_support": 216,
+          "maximum_acceptance_residual": 2.65009053637899e-08,
+          "mean_query_support": 182.755,
+          "method": "sof",
+          "min_context_regret": 0.0007012248128451248,
+          "reference_risk": 0.0370864379847302,
+          "relative_excess_percent": 10.076835986899978,
+          "risk": 0.040823577513834836,
+          "seed": 260917,
+          "tree_count": 100,
+          "validation_loss": 0.04026925633442528
+        }
+      },
+      "reference_risk": 0.0370864379847302,
+      "seed": 260917
+    },
+    {
+      "application": "portfolio",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          17
+        ],
+        "d_b": [
+          16
+        ],
+        "max_K": 17,
+        "parameter_count": 416,
+        "seed": 260918,
+        "selected_step": 1200,
+        "stored_K": 17,
+        "validation_loss": 0.039264512719694895
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 440.3125,
+          "construction_wall_seconds": 125.33934709988534,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 17,
+          "max_query_support": 17,
+          "maximum_acceptance_residual": 9.996001754729804e-10,
+          "mean_query_support": 17.0,
+          "method": "atlas",
+          "min_context_regret": 0.00015818249722927835,
+          "parameter_count": 416,
+          "reference_risk": 0.03870254430751548,
+          "relative_excess_percent": 2.420750451751762,
+          "risk": 0.039639436323679084,
+          "seed": 260918,
+          "selected_B": 1,
+          "selected_K": [
+            17
+          ],
+          "selected_q": [
+            16
+          ],
+          "selected_step": 1200,
+          "stored_K": 17,
+          "validation_loss": 0.039264512719694895
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 51.80116440006532,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 17,
+          "max_query_support": 17,
+          "maximum_acceptance_residual": 9.999284364644334e-10,
+          "mean_query_support": 17.0,
+          "method": "atlas_init",
+          "min_context_regret": 0.0005718330551572406,
+          "parameter_count": 416,
+          "reference_risk": 0.03870254430751548,
+          "relative_excess_percent": 8.903250466283238,
+          "risk": 0.042148328764037825,
+          "seed": 260918,
+          "selected_B": 1,
+          "selected_K": [
+            17
+          ],
+          "selected_q": [
+            16
+          ],
+          "selected_step": 0,
+          "stored_K": 17,
+          "validation_loss": 0.04235221991515356
+        },
+        "iceo_a": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 5188.34375,
+          "construction_wall_seconds": 339.4291132998187,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 2.6137087945354853e-08,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 0.00010908542543629218,
+          "parameter_count": 17844,
+          "reference_risk": 0.03870254430751548,
+          "relative_excess_percent": 3.9347962192685983,
+          "risk": 0.04022541055768835,
+          "seed": 260918,
+          "selected_step": 1600,
+          "validation_loss": 0.03916694830978792
+        },
+        "iceo_sr": {
+          "K_match": 17,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 19.78125,
+          "construction_wall_seconds": 84.2050846000202,
+          "max_query_support": 17,
+          "maximum_acceptance_residual": 3.485972542259606e-09,
+          "mean_query_support": 17.0,
+          "method": "iceo_sr",
+          "min_context_regret": 0.00043624219711976137,
+          "parameter_count": 1905,
+          "reference_risk": 0.03870254430751548,
+          "relative_excess_percent": 3.7360634269472457,
+          "risk": 0.040148495910686616,
+          "seed": 260918,
+          "selected_step": 800,
+          "validation_loss": 0.03994165308481999
+        },
+        "knn": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 334.734375,
+          "construction_wall_seconds": 40.397914099972695,
+          "max_query_support": 295,
+          "maximum_acceptance_residual": 1.7655235865081062e-08,
+          "mean_query_support": 273.415,
+          "method": "knn",
+          "min_context_regret": 0.00032027915257045597,
+          "reference_risk": 0.03870254430751548,
+          "relative_excess_percent": 4.172809282250948,
+          "risk": 0.04031752766884677,
+          "seed": 260918,
+          "selected_k": 512,
+          "validation_loss": 0.040183371833979575
+        },
+        "knn_sr": {
+          "K_match": 17,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 334.734375,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 40.397914099972695,
+          "max_query_support": 17,
+          "maximum_acceptance_residual": 9.973880627292264e-10,
+          "mean_query_support": 17.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.000843954461713925,
+          "reference_risk": 0.03870254430751548,
+          "relative_excess_percent": 22.032179707897704,
+          "risk": 0.04722955842087602,
+          "seed": 260918,
+          "selected_k": 512,
+          "validation_loss": 0.040183371833979575
+        },
+        "saa": {
+          "application": "portfolio",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.000583200016990304,
+          "max_query_support": 495,
+          "maximum_acceptance_residual": 1.066006130590047e-09,
+          "mean_query_support": 495.0,
+          "method": "saa",
+          "min_context_regret": 0.0002782662650490514,
+          "probe_single_context_seconds": null,
+          "reference_risk": 0.03870254430751548,
+          "relative_excess_percent": 14.561263325406518,
+          "risk": 0.044338123697764936,
+          "seed": 260918,
+          "skipped": false
+        },
+        "sof": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 73.73623899999075,
+          "max_query_support": 218,
+          "maximum_acceptance_residual": 3.040476417410072e-08,
+          "mean_query_support": 180.6,
+          "method": "sof",
+          "min_context_regret": 0.0007513388872479182,
+          "reference_risk": 0.03870254430751548,
+          "relative_excess_percent": 8.955333237343481,
+          "risk": 0.042168486121584,
+          "seed": 260918,
+          "tree_count": 100,
+          "validation_loss": 0.04191504904831416
+        }
+      },
+      "reference_risk": 0.03870254430751548,
+      "seed": 260918
+    },
+    {
+      "application": "portfolio",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          14
+        ],
+        "d_b": [
+          13
+        ],
+        "max_K": 14,
+        "parameter_count": 299,
+        "seed": 260919,
+        "selected_step": 1600,
+        "stored_K": 14,
+        "validation_loss": 0.03605533759437398
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 400.203125,
+          "construction_wall_seconds": 117.48741309996694,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 14,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.962160464590572e-10,
+          "mean_query_support": 14.0,
+          "method": "atlas",
+          "min_context_regret": 0.00021580012274279026,
+          "parameter_count": 299,
+          "reference_risk": 0.03631509596913511,
+          "relative_excess_percent": 3.5532036753056095,
+          "risk": 0.03760544529380118,
+          "seed": 260919,
+          "selected_B": 1,
+          "selected_K": [
+            14
+          ],
+          "selected_q": [
+            13
+          ],
+          "selected_step": 1600,
+          "stored_K": 14,
+          "validation_loss": 0.03605533759437398
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 50.230418200138956,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 14,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.947715550749598e-10,
+          "mean_query_support": 14.0,
+          "method": "atlas_init",
+          "min_context_regret": 0.0009322135123481443,
+          "parameter_count": 299,
+          "reference_risk": 0.03631509596913511,
+          "relative_excess_percent": 10.319447772099435,
+          "risk": 0.040062613331057796,
+          "seed": 260919,
+          "selected_B": 1,
+          "selected_K": [
+            14
+          ],
+          "selected_q": [
+            13
+          ],
+          "selected_step": 0,
+          "stored_K": 14,
+          "validation_loss": 0.03912319829554694
+        },
+        "iceo_a": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 5268.546875,
+          "construction_wall_seconds": 354.24493300006725,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 4.3223832714434085e-08,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 0.0001556339356227135,
+          "parameter_count": 17844,
+          "reference_risk": 0.03631509596913511,
+          "relative_excess_percent": 5.125577657618404,
+          "risk": 0.03817645441447178,
+          "seed": 260919,
+          "selected_step": 1600,
+          "validation_loss": 0.03645265732392497
+        },
+        "iceo_sr": {
+          "K_match": 14,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 19.328125,
+          "construction_wall_seconds": 86.82563420012593,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.781064709412381e-10,
+          "mean_query_support": 14.0,
+          "method": "iceo_sr",
+          "min_context_regret": 0.0006855212569393046,
+          "parameter_count": 1806,
+          "reference_risk": 0.03631509596913511,
+          "relative_excess_percent": 5.8872866186489015,
+          "risk": 0.03845306975467551,
+          "seed": 260919,
+          "selected_step": 1600,
+          "validation_loss": 0.03648843508241459
+        },
+        "knn": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 326.640625,
+          "construction_wall_seconds": 40.19149430003017,
+          "max_query_support": 196,
+          "maximum_acceptance_residual": 1.1102484667622203e-09,
+          "mean_query_support": 180.015,
+          "method": "knn",
+          "min_context_regret": 0.0004737207580200395,
+          "reference_risk": 0.03631509596913511,
+          "relative_excess_percent": 5.589922150238974,
+          "risk": 0.038345081562594335,
+          "seed": 260919,
+          "selected_k": 256,
+          "validation_loss": 0.03726053665282508
+        },
+        "knn_sr": {
+          "K_match": 14,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 326.640625,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 40.19149430003017,
+          "max_query_support": 14,
+          "maximum_acceptance_residual": 9.983269833715127e-10,
+          "mean_query_support": 14.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.00142883557857338,
+          "reference_risk": 0.03631509596913511,
+          "relative_excess_percent": 64.52579879265583,
+          "risk": 0.0597477017255391,
+          "seed": 260919,
+          "selected_k": 256,
+          "validation_loss": 0.03726053665282508
+        },
+        "saa": {
+          "application": "portfolio",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0004887999966740608,
+          "max_query_support": 497,
+          "maximum_acceptance_residual": 3.2980383007918945e-10,
+          "mean_query_support": 497.0,
+          "method": "saa",
+          "min_context_regret": 0.001760803878776765,
+          "probe_single_context_seconds": null,
+          "reference_risk": 0.03631509596913511,
+          "relative_excess_percent": 18.477619032316593,
+          "risk": 0.043025261053532056,
+          "seed": 260919,
+          "skipped": false
+        },
+        "sof": {
+          "application": "portfolio",
+          "attempts": 2,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 74.08893710002303,
+          "max_query_support": 216,
+          "maximum_acceptance_residual": 3.1780163024467175e-08,
+          "mean_query_support": 179.11,
+          "method": "sof",
+          "min_context_regret": 0.0009711571729330293,
+          "reference_risk": 0.03631509596913511,
+          "relative_excess_percent": 12.081708485840387,
+          "risk": 0.04070258000047919,
+          "seed": 260919,
+          "tree_count": 100,
+          "validation_loss": 0.03839374706121809
+        }
+      },
+      "reference_risk": 0.03631509596913511,
+      "seed": 260919
+    },
+    {
+      "application": "portfolio",
+      "atlas_structure": {
+        "B": 1,
+        "K_b": [
+          9
+        ],
+        "d_b": [
+          8
+        ],
+        "max_K": 9,
+        "parameter_count": 144,
+        "seed": 260920,
+        "selected_step": 1600,
+        "stored_K": 9,
+        "validation_loss": 0.03532147613128831
+      },
+      "methods": {
+        "atlas": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 369.09375,
+          "construction_wall_seconds": 115.72450080001727,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 9,
+          "max_query_support": 9,
+          "maximum_acceptance_residual": 9.989140103649356e-10,
+          "mean_query_support": 9.0,
+          "method": "atlas",
+          "min_context_regret": 0.0003535328350396591,
+          "parameter_count": 144,
+          "reference_risk": 0.03430963875508931,
+          "relative_excess_percent": 3.9549580880561552,
+          "risk": 0.03566657058801656,
+          "seed": 260920,
+          "selected_B": 1,
+          "selected_K": [
+            9
+          ],
+          "selected_q": [
+            8
+          ],
+          "selected_step": 1600,
+          "stored_K": 9,
+          "validation_loss": 0.03532147613128831
+        },
+        "atlas_init": {
+          "admissibility_preflight_ineligible": [],
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 50.3437618999742,
+          "eligible_B_examined": [
+            1,
+            2,
+            4
+          ],
+          "max_K": 9,
+          "max_query_support": 9,
+          "maximum_acceptance_residual": 9.964968134618742e-10,
+          "mean_query_support": 9.0,
+          "method": "atlas_init",
+          "min_context_regret": 0.010119414435699123,
+          "parameter_count": 144,
+          "reference_risk": 0.03430963875508931,
+          "relative_excess_percent": 123.12642892309402,
+          "risk": 0.07655387173064467,
+          "seed": 260920,
+          "selected_B": 1,
+          "selected_K": [
+            9
+          ],
+          "selected_q": [
+            8
+          ],
+          "selected_step": 0,
+          "stored_K": 9,
+          "validation_loss": 0.07902987409028196
+        },
+        "iceo_a": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 5115.8125,
+          "construction_wall_seconds": 332.93952370015904,
+          "diagnostic_full_sample_train_loss_disabled": true,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 4.334122878646429e-08,
+          "mean_query_support": 500.0,
+          "method": "iceo_a",
+          "min_context_regret": 0.0002662474099837872,
+          "parameter_count": 17844,
+          "reference_risk": 0.03430963875508931,
+          "relative_excess_percent": 5.048399547322231,
+          "risk": 0.03604172640268913,
+          "seed": 260920,
+          "selected_step": 800,
+          "validation_loss": 0.03574222738969349
+        },
+        "iceo_sr": {
+          "K_match": 9,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 15.46875,
+          "construction_wall_seconds": 79.2770646000281,
+          "max_query_support": 9,
+          "maximum_acceptance_residual": 9.862423471304015e-10,
+          "mean_query_support": 9.0,
+          "method": "iceo_sr",
+          "min_context_regret": 0.0008532123186435099,
+          "parameter_count": 1641,
+          "reference_risk": 0.03430963875508931,
+          "relative_excess_percent": 25.06973006400824,
+          "risk": 0.042910972576926554,
+          "seed": 260920,
+          "selected_step": 1600,
+          "validation_loss": 0.043642624292567406
+        },
+        "knn": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 315.453125,
+          "construction_wall_seconds": 38.20077480003238,
+          "max_query_support": 197,
+          "maximum_acceptance_residual": 2.1618232145394482e-08,
+          "mean_query_support": 178.285,
+          "method": "knn",
+          "min_context_regret": 0.0006307704044854687,
+          "reference_risk": 0.03430963875508931,
+          "relative_excess_percent": 6.195995387579658,
+          "risk": 0.03643546238984988,
+          "seed": 260920,
+          "selected_k": 256,
+          "validation_loss": 0.03573285264829518
+        },
+        "knn_sr": {
+          "K_match": 9,
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": 315.453125,
+          "construction_timing_note": "Offline selection reuses selected k-NN model; 2-Wasserstein K-means compression occurs per query during deployment.",
+          "construction_wall_seconds": 38.20077480003238,
+          "max_query_support": 9,
+          "maximum_acceptance_residual": 9.96553804219709e-10,
+          "mean_query_support": 9.0,
+          "method": "knn_sr",
+          "min_context_regret": 0.002904855523515361,
+          "reference_risk": 0.03430963875508931,
+          "relative_excess_percent": 233.5621471985476,
+          "risk": 0.11444396772754092,
+          "seed": 260920,
+          "selected_k": 256,
+          "validation_loss": 0.03573285264829518
+        },
+        "saa": {
+          "application": "portfolio",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0003934998530894518,
+          "max_query_support": 497,
+          "maximum_acceptance_residual": 3.362582989829832e-10,
+          "mean_query_support": 497.0,
+          "method": "saa",
+          "min_context_regret": 0.000958807996260358,
+          "probe_single_context_seconds": null,
+          "reference_risk": 0.03430963875508931,
+          "relative_excess_percent": 20.151322418501785,
+          "risk": 0.041223484681250595,
+          "seed": 260920,
+          "skipped": false
+        },
+        "sof": {
+          "application": "portfolio",
+          "attempts": 1,
+          "construction_cpu_seconds": null,
+          "construction_wall_seconds": 71.77833950007334,
+          "max_query_support": 214,
+          "maximum_acceptance_residual": 4.6748943447410686e-08,
+          "mean_query_support": 176.41,
+          "method": "sof",
+          "min_context_regret": 0.0010627262102014881,
+          "reference_risk": 0.03430963875508931,
+          "relative_excess_percent": 11.768067775760828,
+          "risk": 0.03834722029740692,
+          "seed": 260920,
+          "tree_count": 100,
+          "validation_loss": 0.03726755047035978
+        }
+      },
+      "reference_risk": 0.03430963875508931,
+      "seed": 260920
+    },
+    {
+      "application": "network",
+      "atlas_structure": {
+        "B": 4,
+        "K_b": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "d_b": [
+          9,
+          9,
+          9,
+          9
+        ],
+        "max_K": 10,
+        "parameter_count": 684,
+        "seed": 260911,
+        "selected_step": 1600,
+        "stored_K": 40,
+        "validation_loss": 1.8656639440967697
+      },
+      "methods": {
+        "atlas": {
+          "application": "network",
+          "max_K": 10,
+          "max_query_support": 10,
+          "maximum_acceptance_residual": 5.854234715636826e-07,
+          "mean_query_support": 10.0,
+          "method": "atlas",
+          "min_context_regret": 6.857026055118176e-05,
+          "parameter_count": 684,
+          "reference_risk": 1.7331817168664145,
+          "relative_excess_percent": 0.14043635554813616,
+          "risk": 1.7356157341046083,
+          "seed": 260911,
+          "selected_B": 4,
+          "selected_K": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "selected_q": [
+            9,
+            9,
+            9,
+            9
+          ],
+          "selected_step": 1600,
+          "stored_K": 40,
+          "validation_loss": 1.8656639440967697
+        },
+        "atlas_init": {
+          "application": "network",
+          "max_K": 10,
+          "max_query_support": 10,
+          "maximum_acceptance_residual": 5.840825492267613e-07,
+          "mean_query_support": 10.0,
+          "method": "atlas_init",
+          "min_context_regret": 0.0002351883955746814,
+          "parameter_count": 684,
+          "reference_risk": 1.7331817168664145,
+          "relative_excess_percent": 0.8830999745530884,
+          "risk": 1.7484874441670206,
+          "seed": 260911,
+          "selected_B": 4,
+          "selected_K": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "selected_q": [
+            9,
+            9,
+            9,
+            9
+          ],
+          "selected_step": 0,
+          "stored_K": 40
+        },
+        "iceo_a": {
+          "application": "network",
+          "method": "iceo_a",
+          "reference_risk": 1.7331817168664145,
+          "relative_excess_percent": 0.10062907153745712,
+          "risk": 1.7349258015361542,
+          "seed": 260911
+        },
+        "iceo_sr": {
+          "K_match": 10,
+          "application": "network",
+          "method": "iceo_sr",
+          "parameter_count": 1674,
+          "reference_risk": 1.7331817168664145,
+          "relative_excess_percent": 0.18497844841131109,
+          "risk": 1.7363877295144226,
+          "seed": 260911,
+          "selected_k": null,
+          "selected_step": 800,
+          "validation_loss": 1.8641227132616363
+        },
+        "knn": {
+          "application": "network",
+          "method": "knn",
+          "reference_risk": 1.7331817168664145,
+          "relative_excess_percent": 0.5500816867078708,
+          "risk": 1.7427156320882657,
+          "seed": 260911
+        },
+        "knn_sr": {
+          "K_match": 10,
+          "application": "network",
+          "method": "knn_sr",
+          "parameter_count": null,
+          "reference_risk": 1.7331817168664145,
+          "relative_excess_percent": 0.8597193419179608,
+          "risk": 1.748082215316901,
+          "seed": 260911,
+          "selected_k": 64,
+          "selected_step": null,
+          "validation_loss": null
+        },
+        "saa": {
+          "application": "network",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0004780001472681761,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.5098230100668325e-07,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 3.0599930140873255e-06,
+          "probe_single_context_seconds": 1.1313018000219017,
+          "reference_risk": 1.7331817168664145,
+          "relative_excess_percent": 4.284046946144501,
+          "risk": 1.807432035278965,
+          "seed": 260911,
+          "skipped": false
+        },
+        "sof": {
+          "application": "network",
+          "method": "sof",
+          "reference_risk": 1.7331817168664145,
+          "relative_excess_percent": 0.7615856677345867,
+          "risk": 1.7463813804178654,
+          "seed": 260911
+        }
+      },
+      "reference_risk": 1.7331817168664145,
+      "seed": 260911
+    },
+    {
+      "application": "network",
+      "atlas_structure": {
+        "B": 2,
+        "K_b": [
+          10,
+          11
+        ],
+        "d_b": [
+          9,
+          10
+        ],
+        "max_K": 11,
+        "parameter_count": 371,
+        "seed": 260912,
+        "selected_step": 1600,
+        "stored_K": 21,
+        "validation_loss": 1.8536193328979194
+      },
+      "methods": {
+        "atlas": {
+          "application": "network",
+          "max_K": 11,
+          "max_query_support": 11,
+          "maximum_acceptance_residual": 9.737508829084403e-07,
+          "mean_query_support": 10.45,
+          "method": "atlas",
+          "min_context_regret": 0.0001101699213350571,
+          "parameter_count": 371,
+          "reference_risk": 1.8903459697540383,
+          "relative_excess_percent": 0.10869826192511613,
+          "risk": 1.8924007429675325,
+          "seed": 260912,
+          "selected_B": 2,
+          "selected_K": [
+            10,
+            11
+          ],
+          "selected_q": [
+            9,
+            10
+          ],
+          "selected_step": 1600,
+          "stored_K": 21,
+          "validation_loss": 1.8536193328979194
+        },
+        "atlas_init": {
+          "application": "network",
+          "max_K": 11,
+          "max_query_support": 11,
+          "maximum_acceptance_residual": 8.909283719864092e-07,
+          "mean_query_support": 10.45,
+          "method": "atlas_init",
+          "min_context_regret": 0.00011517321486431698,
+          "parameter_count": 371,
+          "reference_risk": 1.8903459697540383,
+          "relative_excess_percent": 1.0395062004759872,
+          "risk": 1.9099962333200795,
+          "seed": 260912,
+          "selected_B": 2,
+          "selected_K": [
+            10,
+            11
+          ],
+          "selected_q": [
+            9,
+            10
+          ],
+          "selected_step": 0,
+          "stored_K": 21
+        },
+        "iceo_a": {
+          "application": "network",
+          "method": "iceo_a",
+          "reference_risk": 1.8903459697540383,
+          "relative_excess_percent": 0.11416577709370054,
+          "risk": 1.8925040979201675,
+          "seed": 260912
+        },
+        "iceo_sr": {
+          "K_match": 11,
+          "application": "network",
+          "method": "iceo_sr",
+          "parameter_count": 1707,
+          "reference_risk": 1.8903459697540383,
+          "relative_excess_percent": 0.1827235033009538,
+          "risk": 1.8938000761344813,
+          "seed": 260912,
+          "selected_k": null,
+          "selected_step": 800,
+          "validation_loss": 1.8523389377746602
+        },
+        "knn": {
+          "application": "network",
+          "method": "knn",
+          "reference_risk": 1.8903459697540383,
+          "relative_excess_percent": 0.6546075824341939,
+          "risk": 1.9027203178062875,
+          "seed": 260912
+        },
+        "knn_sr": {
+          "K_match": 11,
+          "application": "network",
+          "method": "knn_sr",
+          "parameter_count": null,
+          "reference_risk": 1.8903459697540383,
+          "relative_excess_percent": 1.0570716570438157,
+          "risk": 1.9103282812203783,
+          "seed": 260912,
+          "selected_k": 64,
+          "selected_step": null,
+          "validation_loss": null
+        },
+        "saa": {
+          "application": "network",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0004007001407444477,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 1.2374615840141796e-11,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 5.21659270069641e-06,
+          "probe_single_context_seconds": 2.9612370999529958,
+          "reference_risk": 1.8903459697540383,
+          "relative_excess_percent": 5.171157333457962,
+          "risk": 1.9880987339967013,
+          "seed": 260912,
+          "skipped": false
+        },
+        "sof": {
+          "application": "network",
+          "method": "sof",
+          "reference_risk": 1.8903459697540383,
+          "relative_excess_percent": 1.095971567608491,
+          "risk": 1.9110636241119756,
+          "seed": 260912
+        }
+      },
+      "reference_risk": 1.8903459697540383,
+      "seed": 260912
+    },
+    {
+      "application": "network",
+      "atlas_structure": {
+        "B": 4,
+        "K_b": [
+          11,
+          11,
+          11,
+          11
+        ],
+        "d_b": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "max_K": 11,
+        "parameter_count": 800,
+        "seed": 260913,
+        "selected_step": 1600,
+        "stored_K": 44,
+        "validation_loss": 1.5038063074223997
+      },
+      "methods": {
+        "atlas": {
+          "application": "network",
+          "max_K": 11,
+          "max_query_support": 11,
+          "maximum_acceptance_residual": 7.941469679759668e-07,
+          "mean_query_support": 11.0,
+          "method": "atlas",
+          "min_context_regret": 8.181441223054087e-06,
+          "parameter_count": 800,
+          "reference_risk": 1.5459360968180362,
+          "relative_excess_percent": 0.11702005932774624,
+          "risk": 1.5477451521557017,
+          "seed": 260913,
+          "selected_B": 4,
+          "selected_K": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "selected_q": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "selected_step": 1600,
+          "stored_K": 44,
+          "validation_loss": 1.5038063074223997
+        },
+        "atlas_init": {
+          "application": "network",
+          "max_K": 11,
+          "max_query_support": 11,
+          "maximum_acceptance_residual": 9.347303420075849e-07,
+          "mean_query_support": 11.0,
+          "method": "atlas_init",
+          "min_context_regret": 1.5042500480899612e-05,
+          "parameter_count": 800,
+          "reference_risk": 1.5459360968180362,
+          "relative_excess_percent": 0.7832644706452503,
+          "risk": 1.5580448650032919,
+          "seed": 260913,
+          "selected_B": 4,
+          "selected_K": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "selected_q": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "selected_step": 0,
+          "stored_K": 44
+        },
+        "iceo_a": {
+          "application": "network",
+          "method": "iceo_a",
+          "reference_risk": 1.5459360968180362,
+          "relative_excess_percent": 0.052259783756149016,
+          "risk": 1.5467439996792416,
+          "seed": 260913
+        },
+        "iceo_sr": {
+          "K_match": 11,
+          "application": "network",
+          "method": "iceo_sr",
+          "parameter_count": 1707,
+          "reference_risk": 1.5459360968180362,
+          "relative_excess_percent": 0.10477924598077697,
+          "risk": 1.5475559170036268,
+          "seed": 260913,
+          "selected_k": null,
+          "selected_step": 1200,
+          "validation_loss": 1.5002084708068224
+        },
+        "knn": {
+          "application": "network",
+          "method": "knn",
+          "reference_risk": 1.5459360968180362,
+          "relative_excess_percent": 0.750586812752833,
+          "risk": 1.5575396892943383,
+          "seed": 260913
+        },
+        "knn_sr": {
+          "K_match": 11,
+          "application": "network",
+          "method": "knn_sr",
+          "parameter_count": null,
+          "reference_risk": 1.5459360968180362,
+          "relative_excess_percent": 0.8422645679721518,
+          "risk": 1.5589569688050262,
+          "seed": 260913,
+          "selected_k": 32,
+          "selected_step": null,
+          "validation_loss": null
+        },
+        "saa": {
+          "application": "network",
+          "construction_cpu_seconds": 0.0,
+          "construction_wall_seconds": 0.0003955999854952097,
+          "max_query_support": 500,
+          "maximum_acceptance_residual": 5.92785320733552e-07,
+          "mean_query_support": 500.0,
+          "method": "saa",
+          "min_context_regret": 1.5731708755684082e-06,
+          "probe_single_context_seconds": 1.1698333001695573,
+          "reference_risk": 1.5459360968180362,
+          "relative_excess_percent": 4.216369371972563,
+          "risk": 1.61111847291454,
+          "seed": 260913,
+          "skipped": false
+        },
+        "sof": {
+          "application": "network",
+          "method": "sof",
+          "reference_risk": 1.5459360968180362,
+          "relative_excess_percent": 0.7550444575661414,
+          "risk": 1.5576086016345752,
+          "seed": 260913
+        }
+      },
+      "reference_risk": 1.5459360968180362,
+      "seed": 260913
+    }
+  ]
+}

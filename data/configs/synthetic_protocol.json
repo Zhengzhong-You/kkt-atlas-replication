@@ -1,0 +1,300 @@
+{
+  "schema": "kkt-atlas-symmetric-campaign-protocol-v5",
+  "campaign_id": "kkt_atlas_corrected_training_campaign_v5",
+  "phase": "development",
+  "paper_evidence": false,
+  "seeds": {
+    "development": [
+      240991
+    ],
+    "formal": [
+      241001,
+      241002,
+      241003
+    ]
+  },
+  "methods": [
+    "kkt_atlas",
+    "iceo_a",
+    "sof",
+    "knn"
+  ],
+  "anchor_ablations": [
+    "matched_observed_support",
+    "fixed_b1"
+  ],
+  "training": {
+    "global_batch_size": 64,
+    "base_passes": 32,
+    "formal_horizon_multiplier": 2,
+    "learning_rate": 0.001,
+    "gradient_clip": 10.0,
+    "coordinate_penalty": 1e-05,
+    "probability_slope_penalty": 1e-05,
+    "checkpoints": [
+      0.0,
+      0.125,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "regularization": {
+    "capacity": {
+      "raw_eta": 0.0,
+      "natural_curvature": true,
+      "scenario_domain": "catalog_coordinate_envelope"
+    },
+    "portfolio": {
+      "raw_eta": 1e-06
+    },
+    "network": {
+      "raw_eta": 1e-06,
+      "normalized_eta": 0.000108,
+      "decision_dimension": 48,
+      "coordinate_scale": 1.5,
+      "normalized_penalty": "eta_bar/(2*d)*||(z-z0)/1.5||_2^2"
+    },
+    "controlled": {
+      "raw_eta": 0.0
+    }
+  },
+  "structure": {
+    "chart_counts": [
+      1,
+      2,
+      4
+    ],
+    "chart_count_rule": "minimum_operational_loss",
+    "fold_count": 5,
+    "minimum_chart_size": 50,
+    "spectral_retained_ratio": 0.9999,
+    "spectral_absolute_tolerance": 0.0,
+    "spectral_relative_tolerance": 1e-12,
+    "minimum_samples_per_parameter": 3.0,
+    "minimum_context_scale": 1e-10,
+    "minimum_scenario_scale": 1e-08,
+    "distinct_projected_tolerance": 1e-10,
+    "kmeans_initializations": 20,
+    "kmeans_maximum_iterations": 500,
+    "kmeans_tolerance": 1e-08,
+    "probability_head_maximum_iterations": 2000,
+    "probability_head_objective_tolerance": 1e-12,
+    "probability_head_gradient_tolerance": 1e-08,
+    "probability_head_line_search_steps": 50,
+    "accept_intercept_only_fallback": true,
+    "support_cap_offset": 0,
+    "support_size_rule": "fixed_q_plus_one"
+  },
+  "iceo_a": {
+    "hidden_width": 32,
+    "hidden_layers": 2,
+    "microbatch_size": 32,
+    "center_final_logits": true,
+    "foreach": false,
+    "fused": false
+  },
+  "sof": {
+    "source_repository": "https://github.com/CausalML/StochOptForest.git",
+    "source_commit": "e100b6a814d0a2305dc4f35fcda78d5111d27576",
+    "tree_count": 100,
+    "bootstrap": true,
+    "honesty": false,
+    "minimum_child_fraction": 0.2,
+    "terminal_node_size": 10,
+    "maximum_depth": 100,
+    "active_set_tolerance": 1e-06,
+    "feasibility_tolerance": 1e-06,
+    "split_rule": "approximate_risk",
+    "candidate_rule": "all_midpoints",
+    "worker_count": 8
+  },
+  "knn": {
+    "candidate_rule": "powers_of_two_plus_n",
+    "standardize_contexts": true,
+    "minimum_context_scale": 1e-12,
+    "distance": "euclidean",
+    "weights": "uniform",
+    "tie_rule": "training_observation_index",
+    "refit_with_validation": false
+  },
+  "formal_solver": {
+    "cap_port_maximum_iterations": 100,
+    "armijo_constant": 0.0001,
+    "backtracking_factor": 0.5,
+    "minimum_step": 9.094947017729282e-13,
+    "stationarity_tolerance": 1e-06,
+    "equality_tolerance": 1e-06,
+    "bound_tolerance": 1e-06,
+    "dual_tolerance": 1e-06,
+    "complementarity_tolerance": 1e-06,
+    "network_inner_maximum_iterations": 5000,
+    "network_outer_maximum_iterations": 5000,
+    "network_residual_tolerance": 1e-06,
+    "network_recourse_algorithm": "exact_joint_convex_qp",
+    "network_outer_algorithm": "projected_residual_refinement",
+    "network_recourse_warm_start_across_outer_iterations": false,
+    "network_step_fraction": 0.9
+  },
+  "applications": {
+    "capacity": {
+      "context_dim": 8,
+      "latent_rank": 6,
+      "master_support_size": 1000,
+      "master_scenario_dim": 128,
+      "validation_size": 1000,
+      "evaluation_size": 200,
+      "evaluation_draws_per_context": 50,
+      "anchor": {
+        "K": 500,
+        "m": 64,
+        "n": 12800
+      },
+      "quality_stresses": {
+        "m_high": 128,
+        "n_low": 800
+      },
+      "timing_support_size": 1000,
+      "dgp": {
+        "base_demand": 5.0,
+        "probability_bandwidth": 0.7,
+        "nonlinear_scale": 0.45,
+        "latent_scale": 0.22,
+        "idiosyncratic_scale": 0.035,
+        "context_scale": 1.0,
+        "catalog_bias_scale": 0.08
+      },
+      "problem": {
+        "resource_count_rule": "min(8,m)",
+        "base_capacity": 5.0,
+        "smoothing": 0.35,
+        "newton_iterations": 30,
+        "newton_damping": 0.8
+      },
+      "resource_mix": {
+        "scale": 1.0
+      }
+    },
+    "portfolio": {
+      "context_dim": 8,
+      "latent_rank": 6,
+      "master_support_size": 1000,
+      "master_scenario_dim": 128,
+      "validation_size": 1000,
+      "evaluation_size": 200,
+      "evaluation_draws_per_context": 50,
+      "anchor": {
+        "K": 500,
+        "m": 32,
+        "n": 12800
+      },
+      "quality_stresses": {
+        "m_high": 64,
+        "n_low": 800
+      },
+      "timing_support_size": 1000,
+      "dgp": {
+        "return_bound": 0.25,
+        "probability_bandwidth": 1.35,
+        "factor_scale": 0.032,
+        "idiosyncratic_scale": 0.008,
+        "crash_probability": 0.12,
+        "crash_scale": 0.075,
+        "nonlinear_scale": 0.45,
+        "context_scale": 1.0,
+        "catalog_bias_scale": 0.1
+      },
+      "problem": {
+        "return_bound": 0.25,
+        "tail_probability": 0.1,
+        "smoothing": 0.015,
+        "expected_return_weight": 0.25,
+        "leverage_penalty": 0.01,
+        "gradient_iterations": 24,
+        "step_fraction": 0.9,
+        "training_solver": "damped_newton",
+        "newton_damping": 0.5
+      }
+    },
+    "network": {
+      "context_dim": 8,
+      "latent_rank": 6,
+      "master_support_size": 1000,
+      "master_scenario_dim": 128,
+      "validation_size": 1000,
+      "evaluation_size": 200,
+      "evaluation_draws_per_context": 50,
+      "anchor": {
+        "K": 500,
+        "m": 16,
+        "n": 12800
+      },
+      "quality_stresses": {
+        "m_high": 32,
+        "n_low": 800
+      },
+      "timing_support_size": 1000,
+      "dgp": {
+        "context_slope": 3.0,
+        "crash_probability": 0.12,
+        "factor_scale": 0.35,
+        "group_factor_scale": 0.4,
+        "idiosyncratic_scale": 0.2,
+        "shock_scale": 0.9,
+        "baseline_demand_minimum": 0.04,
+        "baseline_demand_maximum": 0.06
+      },
+      "problem": {
+        "grid_side": 4,
+        "link_count": 48,
+        "reservation_cost": 1.0,
+        "congestion_penalty": 10.0,
+        "routing_regularization": 0.05,
+        "reservation_upper_bound": 1.5,
+        "decision_iterations": 30,
+        "routing_updates_per_iteration": 6,
+        "realized_loss_routing_iterations": 80,
+        "step_fraction": 0.9
+      }
+    }
+  },
+  "controlled": {
+    "seeds": [
+      241011,
+      241012,
+      241013
+    ],
+    "support_size": 500,
+    "scenario_dim": 200,
+    "training_size": 1600,
+    "validation_size": 200,
+    "evaluation_size": 200,
+    "evaluation_draws_per_context": 50,
+    "chart_count": 4,
+    "width": 4,
+    "local_support_size": 5,
+    "noise_scales": {
+      "low": 0.25,
+      "high": 4.0
+    }
+  },
+  "execution": {
+    "cores_per_fit": 8,
+    "context_workers": 1,
+    "max_parallel_fits_windows": 24,
+    "anchor_timing_workers_windows": 24,
+    "training_time_primary": "process_tree_cpu_seconds",
+    "wall_time_role": "secondary_descriptive",
+    "formal_makespan_limit_hours": 48,
+    "maximum_job_wall_hours": 12,
+    "evaluation_block_size": 10,
+    "deployment_batch_sizes": [
+      1,
+      128
+    ],
+    "deployment_repetitions": 5
+  },
+  "development_validation_size": 1000,
+  "development_training_size": 12800
+}

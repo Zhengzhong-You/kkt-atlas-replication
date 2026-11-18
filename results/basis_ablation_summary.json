@@ -1,0 +1,334 @@
+{
+  "experiment": "local_basis_ablation",
+  "grid64": {
+    "full": {
+      "combined_28q": {
+        "days": 2557,
+        "period_label": "combined_28q",
+        "quarters": 28,
+        "v0_daily_mean_loss": 24.808341108325617,
+        "v0_lower_quarter_count": 18,
+        "v0_minus_variant_daily": {
+          "mean": -0.2895582628347623,
+          "nw14_se": 0.11122114941291393
+        },
+        "variant_daily_mean_loss": 25.09789937116038,
+        "variant_lower_quarter_count": 10
+      },
+      "dev_2018Q1_2020Q3": {
+        "days": 1004,
+        "period_label": "dev_2018Q1_2020Q3",
+        "quarters": 11,
+        "v0_daily_mean_loss": 25.104096825302104,
+        "v0_lower_quarter_count": 8,
+        "v0_minus_variant_daily": {
+          "mean": -0.2782382636845994,
+          "nw14_se": 0.1503873585766304
+        },
+        "variant_daily_mean_loss": 25.382335088986704,
+        "variant_lower_quarter_count": 3
+      },
+      "later_2020Q4_2024Q4": {
+        "days": 1553,
+        "period_label": "later_2020Q4_2024Q4",
+        "quarters": 17,
+        "v0_daily_mean_loss": 24.6171377987027,
+        "v0_lower_quarter_count": 10,
+        "v0_minus_variant_daily": {
+          "mean": -0.29687653659314206,
+          "nw14_se": 0.15512687500403824
+        },
+        "variant_daily_mean_loss": 24.914014335295843,
+        "variant_lower_quarter_count": 7
+      }
+    },
+    "pca": {
+      "combined_28q": {
+        "days": 2557,
+        "period_label": "combined_28q",
+        "quarters": 28,
+        "v0_daily_mean_loss": 24.808341108325617,
+        "v0_lower_quarter_count": 20,
+        "v0_minus_variant_daily": {
+          "mean": -0.39812533321983,
+          "nw14_se": 0.15206525724565334
+        },
+        "variant_daily_mean_loss": 25.206466441545448,
+        "variant_lower_quarter_count": 8
+      },
+      "dev_2018Q1_2020Q3": {
+        "days": 1004,
+        "period_label": "dev_2018Q1_2020Q3",
+        "quarters": 11,
+        "v0_daily_mean_loss": 25.104096825302104,
+        "v0_lower_quarter_count": 9,
+        "v0_minus_variant_daily": {
+          "mean": -0.1811778383242146,
+          "nw14_se": 0.1243738738173481
+        },
+        "variant_daily_mean_loss": 25.28527466362632,
+        "variant_lower_quarter_count": 2
+      },
+      "later_2020Q4_2024Q4": {
+        "days": 1553,
+        "period_label": "later_2020Q4_2024Q4",
+        "quarters": 17,
+        "v0_daily_mean_loss": 24.6171377987027,
+        "v0_lower_quarter_count": 11,
+        "v0_minus_variant_daily": {
+          "mean": -0.5383798630815156,
+          "nw14_se": 0.23604681080636475
+        },
+        "variant_daily_mean_loss": 25.155517661784213,
+        "variant_lower_quarter_count": 6
+      }
+    }
+  },
+  "synthetic": {
+    "capacity": {
+      "full": {
+        "relative_excess_percent": {
+          "mean": 0.07356042240069298,
+          "n": 10,
+          "sd": 0.02931203568217763,
+          "se": 0.009269279561180871
+        },
+        "risk": {
+          "mean": 1.5956726375864496,
+          "n": 10,
+          "sd": 0.06652312408740808,
+          "se": 0.021036458918621957
+        },
+        "total_seeds": 10,
+        "v0_lower_seed_count": 5,
+        "v0_minus_variant_excess_pct": {
+          "mean": -0.0009060836638865061,
+          "n": 10,
+          "sd": 0.02339817106570813,
+          "se": 0.007399151364988697
+        },
+        "v0_minus_variant_risk": {
+          "mean": -1.8178734875373693e-05,
+          "n": 10,
+          "sd": 0.000373590465859589,
+          "se": 0.00011813967842396759
+        }
+      },
+      "pca": {
+        "relative_excess_percent": {
+          "mean": 0.07258557017538014,
+          "n": 10,
+          "sd": 0.03171851390164062,
+          "se": 0.010030274792489831
+        },
+        "risk": {
+          "mean": 1.5956533592450821,
+          "n": 10,
+          "sd": 0.06642566169532288,
+          "se": 0.021005638604102195
+        },
+        "total_seeds": 10,
+        "v0_lower_seed_count": 4,
+        "v0_minus_variant_excess_pct": {
+          "mean": 6.876856142631199e-05,
+          "n": 10,
+          "sd": 0.00019594780405015813,
+          "se": 6.196413633068661e-05
+        },
+        "v0_minus_variant_risk": {
+          "mean": 1.0996064921497962e-06,
+          "n": 10,
+          "sd": 3.1948068471701395e-06,
+          "se": 1.0102866321359106e-06
+        }
+      },
+      "seeds": [
+        260911,
+        260912,
+        260913,
+        260914,
+        260915,
+        260916,
+        260917,
+        260918,
+        260919,
+        260920
+      ],
+      "v0_kkt": {
+        "relative_excess_percent": {
+          "mean": 0.07265433873680646,
+          "n": 10,
+          "sd": 0.031699506546493054,
+          "se": 0.010024264139033628
+        },
+        "risk": {
+          "mean": 1.5956544588515746,
+          "n": 10,
+          "sd": 0.0664258520153332,
+          "se": 0.02100569878857389
+        }
+      }
+    },
+    "network": {
+      "full": {
+        "relative_excess_percent": {
+          "mean": 0.12372892200049852,
+          "n": 3,
+          "sd": 0.022828995049165444,
+          "se": 0.013180326436964304
+        },
+        "risk": {
+          "mean": 1.725277408318534,
+          "n": 3,
+          "sd": 0.17247935565730144,
+          "se": 0.0995810024183962
+        },
+        "total_seeds": 3,
+        "v0_lower_seed_count": 2,
+        "v0_minus_variant_excess_pct": {
+          "mean": -0.0016773630668323418,
+          "n": 3,
+          "sd": 0.007036187128142378,
+          "se": 0.004062344532501582
+        },
+        "v0_minus_variant_risk": {
+          "mean": -2.353190925326783e-05,
+          "n": 3,
+          "sd": 0.00012634684931912512,
+          "se": 7.294638746565798e-05
+        }
+      },
+      "pca": {
+        "relative_excess_percent": {
+          "mean": 0.12837167840081568,
+          "n": 3,
+          "sd": 0.01863339206098881,
+          "se": 0.010757993922327725
+        },
+        "risk": {
+          "mean": 1.7253646627890227,
+          "n": 3,
+          "sd": 0.17259779559728142,
+          "se": 0.09964938374962644
+        },
+        "total_seeds": 3,
+        "v0_lower_seed_count": 3,
+        "v0_minus_variant_excess_pct": {
+          "mean": -0.006320119467149485,
+          "n": 3,
+          "sd": 0.0029404013528737693,
+          "se": 0.0016976415126072105
+        },
+        "v0_minus_variant_risk": {
+          "mean": -0.00011078637974174892,
+          "n": 3,
+          "sd": 5.474627595707826e-05,
+          "se": 3.160777716094867e-05
+        }
+      },
+      "seeds": [
+        260911,
+        260912,
+        260913
+      ],
+      "v0_kkt": {
+        "relative_excess_percent": {
+          "mean": 0.12205155893366616,
+          "n": 3,
+          "sd": 0.016456416314592177,
+          "se": 0.009501116389126343
+        },
+        "risk": {
+          "mean": 1.7252538764092809,
+          "n": 3,
+          "sd": 0.17256127937818694,
+          "se": 0.09962830110070245
+        }
+      }
+    },
+    "portfolio": {
+      "full": {
+        "relative_excess_percent": {
+          "mean": 2.7541131045418865,
+          "n": 10,
+          "sd": 0.5774914046012801,
+          "se": 0.18261881677098868
+        },
+        "risk": {
+          "mean": 0.03790645151064028,
+          "n": 10,
+          "sd": 0.0014580395233223322,
+          "se": 0.00046107258122447635
+        },
+        "total_seeds": 10,
+        "v0_lower_seed_count": 1,
+        "v0_minus_variant_excess_pct": {
+          "mean": 0.18490103456998877,
+          "n": 10,
+          "sd": 0.15801768455849868,
+          "se": 0.04996957937908742
+        },
+        "v0_minus_variant_risk": {
+          "mean": 6.88036085883359e-05,
+          "n": 10,
+          "sd": 5.9389643462437586e-05,
+          "se": 1.878065427666314e-05
+        }
+      },
+      "pca": {
+        "relative_excess_percent": {
+          "mean": 3.1738085175750363,
+          "n": 10,
+          "sd": 0.5403036303521799,
+          "se": 0.17085900999705722
+        },
+        "risk": {
+          "mean": 0.03806129362822257,
+          "n": 10,
+          "sd": 0.0014614124959427758,
+          "se": 0.0004621392088210752
+        },
+        "total_seeds": 10,
+        "v0_lower_seed_count": 10,
+        "v0_minus_variant_excess_pct": {
+          "mean": -0.23479437846316076,
+          "n": 10,
+          "sd": 0.2414152829765334,
+          "se": 0.07634221561799191
+        },
+        "v0_minus_variant_risk": {
+          "mean": -8.603850899394915e-05,
+          "n": 10,
+          "sd": 8.741721158029587e-05,
+          "se": 2.7643749529458213e-05
+        }
+      },
+      "seeds": [
+        260911,
+        260912,
+        260913,
+        260914,
+        260915,
+        260916,
+        260917,
+        260918,
+        260919,
+        260920
+      ],
+      "v0_kkt": {
+        "relative_excess_percent": {
+          "mean": 2.9390141391118756,
+          "n": 10,
+          "sd": 0.529502029321265,
+          "se": 0.16744324383364584
+        },
+        "risk": {
+          "mean": 0.03797525511922861,
+          "n": 10,
+          "sd": 0.0014750568828783511,
+          "se": 0.00046645394282038153
+        }
+      }
+    }
+  }
+}

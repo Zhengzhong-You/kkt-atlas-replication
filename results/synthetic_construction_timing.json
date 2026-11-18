@@ -1,0 +1,206 @@
+[
+  {
+    "application": "capacity",
+    "cpu_hours": 0.2754123263888889,
+    "cpu_wall_ratio": 6.348268939531562,
+    "individual_cpu_wall_ratios": [
+      6.781761649848679,
+      5.10419069119722,
+      7.43145714830571
+    ],
+    "method": "atlas",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 0.04338384668517392
+  },
+  {
+    "application": "capacity",
+    "cpu_hours": 3.8725434027777776,
+    "cpu_wall_ratio": 20.423442378778585,
+    "individual_cpu_wall_ratios": [
+      20.40890096005784,
+      20.482784308617468,
+      20.378520490281936
+    ],
+    "method": "iceo_a",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 0.18961266817594016
+  },
+  {
+    "application": "capacity",
+    "cpu_hours": 0.7508188657407407,
+    "cpu_wall_ratio": 22.00315879298528,
+    "individual_cpu_wall_ratios": [
+      21.384953441539853,
+      22.306834440759538,
+      22.345218901296054
+    ],
+    "method": "sof",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 0.034123230796303014
+  },
+  {
+    "application": "capacity",
+    "cpu_hours": 0.19057870370370372,
+    "cpu_wall_ratio": 13.819458814000399,
+    "individual_cpu_wall_ratios": [
+      13.524393606054673,
+      14.05769296398969,
+      13.876409317719814
+    ],
+    "method": "knn",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 0.0137906054259252
+  },
+  {
+    "application": "portfolio",
+    "cpu_hours": 0.1147193287037037,
+    "cpu_wall_ratio": 3.932880092862737,
+    "individual_cpu_wall_ratios": [
+      3.8114001653090086,
+      3.9651883719478787,
+      4.0194590357048385
+    ],
+    "method": "atlas",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 0.029169292222229866
+  },
+  {
+    "application": "portfolio",
+    "cpu_hours": 2.244331597222222,
+    "cpu_wall_ratio": 15.36769442772748,
+    "individual_cpu_wall_ratios": [
+      15.1755862488537,
+      15.331662409830264,
+      15.6005056676139
+    ],
+    "method": "iceo_a",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 0.1460421800926
+  },
+  {
+    "application": "portfolio",
+    "cpu_hours": 0.45662905092592593,
+    "cpu_wall_ratio": 20.23619899818607,
+    "individual_cpu_wall_ratios": [
+      20.718715713993305,
+      20.514720643682818,
+      19.52950125185512
+    ],
+    "method": "sof",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 0.022564961481494485
+  },
+  {
+    "application": "portfolio",
+    "cpu_hours": 0.12036024305555555,
+    "cpu_wall_ratio": 9.393359748606004,
+    "individual_cpu_wall_ratios": [
+      9.602974842675204,
+      8.991330793413585,
+      9.635374628648528
+    ],
+    "method": "knn",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 0.012813332638880065
+  },
+  {
+    "application": "network",
+    "cpu_hours": 2.823420138888889,
+    "cpu_wall_ratio": 7.148797650949611,
+    "individual_cpu_wall_ratios": [
+      6.772269285002747,
+      5.864330200242269,
+      8.60378750461206
+    ],
+    "method": "atlas",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 0.3949503506388714
+  },
+  {
+    "application": "network",
+    "cpu_hours": 133.38951533564816,
+    "cpu_wall_ratio": 14.918356229100265,
+    "individual_cpu_wall_ratios": [
+      15.512979135760228,
+      14.368416146168983,
+      14.951937699703096
+    ],
+    "method": "iceo_a",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 8.941301125083333
+  },
+  {
+    "application": "network",
+    "cpu_hours": 18.81605613425926,
+    "cpu_wall_ratio": 23.351827955669552,
+    "individual_cpu_wall_ratios": [
+      24.01636354888305,
+      24.244443193819787,
+      22.044052601198484
+    ],
+    "method": "sof",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 0.8057637359259038
+  },
+  {
+    "application": "network",
+    "cpu_hours": 4.2715856481481485,
+    "cpu_wall_ratio": 23.32523968686669,
+    "individual_cpu_wall_ratios": [
+      23.71723708552047,
+      23.433019852187215,
+      22.68797587528177
+    ],
+    "method": "knn",
+    "seeds": [
+      260911,
+      260912,
+      260913
+    ],
+    "wall_hours": 0.1831314792684969
+  }
+]

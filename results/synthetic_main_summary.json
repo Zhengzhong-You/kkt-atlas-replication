@@ -1,0 +1,1286 @@
+{
+  "actual_sample_sizes": {
+    "evaluation_context_count": 200,
+    "reference_support_size_K_ref": 500,
+    "training_size_I_tr": 12800,
+    "validation_size_I_val": 1000
+  },
+  "applications": {
+    "capacity": {
+      "atlas_B_range": [
+        1,
+        2
+      ],
+      "atlas_max_K_range": [
+        4,
+        4
+      ],
+      "atlas_parameter_count_range": [
+        39,
+        78
+      ],
+      "atlas_stored_K_range": [
+        4,
+        8
+      ],
+      "atlas_structures": [
+        {
+          "B": 1,
+          "K_b": [
+            4
+          ],
+          "d_b": [
+            3
+          ],
+          "max_K": 4,
+          "parameter_count": 39,
+          "seed": 260911,
+          "selected_step": 1600,
+          "stored_K": 4,
+          "validation_loss": 1.5629893977663056
+        },
+        {
+          "B": 2,
+          "K_b": [
+            4,
+            4
+          ],
+          "d_b": [
+            3,
+            3
+          ],
+          "max_K": 4,
+          "parameter_count": 78,
+          "seed": 260912,
+          "selected_step": 0,
+          "stored_K": 8,
+          "validation_loss": 1.5965232397184066
+        },
+        {
+          "B": 1,
+          "K_b": [
+            4
+          ],
+          "d_b": [
+            3
+          ],
+          "max_K": 4,
+          "parameter_count": 39,
+          "seed": 260913,
+          "selected_step": 1600,
+          "stored_K": 4,
+          "validation_loss": 1.5926080456524914
+        },
+        {
+          "B": 1,
+          "K_b": [
+            4
+          ],
+          "d_b": [
+            3
+          ],
+          "max_K": 4,
+          "parameter_count": 39,
+          "seed": 260914,
+          "selected_step": 800,
+          "stored_K": 4,
+          "validation_loss": 1.611768628289402
+        },
+        {
+          "B": 1,
+          "K_b": [
+            4
+          ],
+          "d_b": [
+            3
+          ],
+          "max_K": 4,
+          "parameter_count": 39,
+          "seed": 260915,
+          "selected_step": 0,
+          "stored_K": 4,
+          "validation_loss": 1.635406076436362
+        },
+        {
+          "B": 1,
+          "K_b": [
+            4
+          ],
+          "d_b": [
+            3
+          ],
+          "max_K": 4,
+          "parameter_count": 39,
+          "seed": 260916,
+          "selected_step": 800,
+          "stored_K": 4,
+          "validation_loss": 1.4907124258018158
+        },
+        {
+          "B": 1,
+          "K_b": [
+            4
+          ],
+          "d_b": [
+            3
+          ],
+          "max_K": 4,
+          "parameter_count": 39,
+          "seed": 260917,
+          "selected_step": 800,
+          "stored_K": 4,
+          "validation_loss": 1.6783734931741279
+        },
+        {
+          "B": 1,
+          "K_b": [
+            4
+          ],
+          "d_b": [
+            3
+          ],
+          "max_K": 4,
+          "parameter_count": 39,
+          "seed": 260918,
+          "selected_step": 1200,
+          "stored_K": 4,
+          "validation_loss": 1.5155827819327492
+        },
+        {
+          "B": 1,
+          "K_b": [
+            4
+          ],
+          "d_b": [
+            3
+          ],
+          "max_K": 4,
+          "parameter_count": 39,
+          "seed": 260919,
+          "selected_step": 0,
+          "stored_K": 4,
+          "validation_loss": 1.6244203945242783
+        },
+        {
+          "B": 1,
+          "K_b": [
+            4
+          ],
+          "d_b": [
+            3
+          ],
+          "max_K": 4,
+          "parameter_count": 39,
+          "seed": 260920,
+          "selected_step": 800,
+          "stored_K": 4,
+          "validation_loss": 1.6063815763534803
+        }
+      ],
+      "methods": {
+        "atlas": {
+          "query_support_max": 4.0,
+          "query_support_mean": 4.0,
+          "query_support_min": 4.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 0.07265433873680646,
+            "n": 10,
+            "sd": 0.031699506546493054,
+            "se": 0.010024264139033628
+          },
+          "risk": {
+            "mean": 1.5956544588515746,
+            "n": 10,
+            "sd": 0.0664258520153332,
+            "se": 0.02100569878857389
+          },
+          "skipped": false
+        },
+        "atlas_init": {
+          "query_support_max": 4.0,
+          "query_support_mean": 4.0,
+          "query_support_min": 4.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 0.05172503207766725,
+            "n": 10,
+            "sd": 0.0257333900302061,
+            "se": 0.008137612441292044
+          },
+          "risk": {
+            "mean": 1.5953224714012695,
+            "n": 10,
+            "sd": 0.06645419227071395,
+            "se": 0.021014660764221288
+          },
+          "skipped": false
+        },
+        "iceo_a": {
+          "query_support_max": 500.0,
+          "query_support_mean": 500.0,
+          "query_support_min": 500.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 0.3984129826143518,
+            "n": 10,
+            "sd": 0.10397192572058708,
+            "se": 0.032878809799089866
+          },
+          "risk": {
+            "mean": 1.6009043056631973,
+            "n": 10,
+            "sd": 0.06808793135432623,
+            "se": 0.021531294424886396
+          },
+          "skipped": false
+        },
+        "iceo_sr": {
+          "query_support_max": 4.0,
+          "query_support_mean": 4.0,
+          "query_support_min": 4.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 0.4350631239644547,
+            "n": 10,
+            "sd": 0.07981656391281267,
+            "se": 0.02524021369728891
+          },
+          "risk": {
+            "mean": 1.601457897734834,
+            "n": 10,
+            "sd": 0.067307588807981,
+            "se": 0.021284528444727755
+          },
+          "skipped": false
+        },
+        "knn": {
+          "query_support_max": 107.91,
+          "query_support_mean": 71.59142857142857,
+          "query_support_min": 30.585,
+          "query_support_recorded_seeds": 7,
+          "relative_excess_percent": {
+            "mean": 2.0632114115371847,
+            "n": 10,
+            "sd": 0.33826473854203787,
+            "se": 0.1069687025914184
+          },
+          "risk": {
+            "mean": 1.6275466573313557,
+            "n": 10,
+            "sd": 0.07190549223047334,
+            "se": 0.02273851317238368
+          },
+          "skipped": false
+        },
+        "knn_sr": {
+          "query_support_max": 4.0,
+          "query_support_mean": 4.0,
+          "query_support_min": 4.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 1.987627268968645,
+            "n": 10,
+            "sd": 0.3396420523017555,
+            "se": 0.10740424744475816
+          },
+          "risk": {
+            "mean": 1.6263414196875552,
+            "n": 10,
+            "sd": 0.07185841848559703,
+            "se": 0.0227236271472034
+          },
+          "skipped": false
+        },
+        "saa": {
+          "query_support_max": 500.0,
+          "query_support_mean": 500.0,
+          "query_support_min": 500.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 22.226549489497465,
+            "n": 10,
+            "sd": 1.6376601332611431,
+            "se": 0.5178736054360084
+          },
+          "risk": {
+            "mean": 1.9494957101607124,
+            "n": 10,
+            "sd": 0.09912479483807694,
+            "se": 0.03134601242852246
+          },
+          "skipped": false
+        },
+        "sof": {
+          "query_support_max": 168.225,
+          "query_support_mean": 164.185,
+          "query_support_min": 160.475,
+          "query_support_recorded_seeds": 7,
+          "relative_excess_percent": {
+            "mean": 2.411252605444998,
+            "n": 10,
+            "sd": 0.4156357794364949,
+            "se": 0.13143557400786995
+          },
+          "risk": {
+            "mean": 1.6331114670788636,
+            "n": 10,
+            "sd": 0.07252197064166731,
+            "se": 0.022933460763153158
+          },
+          "skipped": false
+        }
+      },
+      "paired_atlas_minus_method": {
+        "atlas_init": {
+          "atlas_lower_seed_count": 1,
+          "atlas_minus_method_excess_pct": {
+            "mean": 0.020929306659139207,
+            "n": 10,
+            "sd": 0.024076972441842266,
+            "se": 0.0076138072077327505
+          },
+          "atlas_minus_method_risk": {
+            "mean": 0.00033198745030500466,
+            "n": 10,
+            "sd": 0.0003744491947535696,
+            "se": 0.00011841123234372518
+          },
+          "total_seeds": 10
+        },
+        "iceo_a": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -0.3257586438775454,
+            "n": 10,
+            "sd": 0.11420008432074838,
+            "se": 0.03611323754368478
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.005249846811622927,
+            "n": 10,
+            "sd": 0.0019628485241297727,
+            "se": 0.0006207072038150054
+          },
+          "total_seeds": 10
+        },
+        "iceo_sr": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -0.3624087852276482,
+            "n": 10,
+            "sd": 0.08695705596663905,
+            "se": 0.02749823554773141
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.005803438883259493,
+            "n": 10,
+            "sd": 0.0015231652016673336,
+            "se": 0.0004816671289978473
+          },
+          "total_seeds": 10
+        },
+        "knn": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -1.990557072800378,
+            "n": 10,
+            "sd": 0.3462621840304316,
+            "se": 0.10949771691205458
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.03189219847978111,
+            "n": 10,
+            "sd": 0.0065953846367674575,
+            "se": 0.002085643749706747
+          },
+          "total_seeds": 10
+        },
+        "knn_sr": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -1.9149729302318383,
+            "n": 10,
+            "sd": 0.34664564014520716,
+            "se": 0.10961897638259556
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.030686960835980947,
+            "n": 10,
+            "sd": 0.006564710254450027,
+            "se": 0.0020759436583125596
+          },
+          "total_seeds": 10
+        },
+        "saa": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -22.153895150760658,
+            "n": 10,
+            "sd": 1.640279427415146,
+            "se": 0.5187018989748696
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.35384125130913796,
+            "n": 10,
+            "sd": 0.036831532971807475,
+            "se": 0.011647153390650184
+          },
+          "total_seeds": 10
+        },
+        "sof": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -2.3385982667081913,
+            "n": 10,
+            "sd": 0.42386107268789247,
+            "se": 0.13403664011759278
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.037457008227289035,
+            "n": 10,
+            "sd": 0.007828512761904995,
+            "se": 0.002475593101931522
+          },
+          "total_seeds": 10
+        }
+      },
+      "reference_risk": {
+        "mean": 1.5944980247969,
+        "n": 10,
+        "sd": 0.06642669612048763,
+        "se": 0.021005965718061157
+      },
+      "seed_count": 10,
+      "seeds": [
+        260911,
+        260912,
+        260913,
+        260914,
+        260915,
+        260916,
+        260917,
+        260918,
+        260919,
+        260920
+      ]
+    },
+    "network": {
+      "atlas_B_range": [
+        2,
+        4
+      ],
+      "atlas_max_K_range": [
+        10,
+        11
+      ],
+      "atlas_parameter_count_range": [
+        371,
+        800
+      ],
+      "atlas_stored_K_range": [
+        21,
+        44
+      ],
+      "atlas_structures": [
+        {
+          "B": 4,
+          "K_b": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "d_b": [
+            9,
+            9,
+            9,
+            9
+          ],
+          "max_K": 10,
+          "parameter_count": 684,
+          "seed": 260911,
+          "selected_step": 1600,
+          "stored_K": 40,
+          "validation_loss": 1.8656639440967697
+        },
+        {
+          "B": 2,
+          "K_b": [
+            10,
+            11
+          ],
+          "d_b": [
+            9,
+            10
+          ],
+          "max_K": 11,
+          "parameter_count": 371,
+          "seed": 260912,
+          "selected_step": 1600,
+          "stored_K": 21,
+          "validation_loss": 1.8536193328979194
+        },
+        {
+          "B": 4,
+          "K_b": [
+            11,
+            11,
+            11,
+            11
+          ],
+          "d_b": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "max_K": 11,
+          "parameter_count": 800,
+          "seed": 260913,
+          "selected_step": 1600,
+          "stored_K": 44,
+          "validation_loss": 1.5038063074223997
+        }
+      ],
+      "methods": {
+        "atlas": {
+          "query_support_max": 11.0,
+          "query_support_mean": 10.483333333333333,
+          "query_support_min": 10.0,
+          "query_support_recorded_seeds": 3,
+          "relative_excess_percent": {
+            "mean": 0.12205155893366616,
+            "n": 3,
+            "sd": 0.016456416314592177,
+            "se": 0.009501116389126343
+          },
+          "risk": {
+            "mean": 1.7252538764092809,
+            "n": 3,
+            "sd": 0.17256127937818694,
+            "se": 0.09962830110070245
+          },
+          "skipped": false
+        },
+        "atlas_init": {
+          "query_support_max": 11.0,
+          "query_support_mean": 10.483333333333333,
+          "query_support_min": 10.0,
+          "query_support_recorded_seeds": 3,
+          "relative_excess_percent": {
+            "mean": 0.901956881891442,
+            "n": 3,
+            "sd": 0.1291574358774497,
+            "se": 0.07456908037168743
+          },
+          "risk": {
+            "mean": 1.7388428474967974,
+            "n": 3,
+            "sd": 0.17617379231518301,
+            "se": 0.10171398641732814
+          },
+          "skipped": false
+        },
+        "iceo_a": {
+          "query_support_max": 500.0,
+          "query_support_mean": 500.0,
+          "query_support_min": 500.0,
+          "query_support_recorded_seeds": 3,
+          "relative_excess_percent": {
+            "mean": 0.0890182107957689,
+            "n": 3,
+            "sd": 0.03254530792832357,
+            "se": 0.01879004229327688
+          },
+          "risk": {
+            "mean": 1.7247246330451877,
+            "n": 3,
+            "sd": 0.17310563036143423,
+            "se": 0.09994258228741391
+          },
+          "skipped": false
+        },
+        "iceo_sr": {
+          "query_support_max": 11.0,
+          "query_support_mean": 10.666666666666666,
+          "query_support_min": 10.0,
+          "query_support_recorded_seeds": 3,
+          "relative_excess_percent": {
+            "mean": 0.1574937325643473,
+            "n": 3,
+            "sd": 0.0456660050386471,
+            "se": 0.02636528030187771
+          },
+          "risk": {
+            "mean": 1.7259145742175104,
+            "n": 3,
+            "sd": 0.17335950989046736,
+            "se": 0.10008915970184293
+          },
+          "skipped": false
+        },
+        "knn": {
+          "query_support_max": null,
+          "query_support_mean": null,
+          "query_support_min": null,
+          "query_support_recorded_seeds": 0,
+          "relative_excess_percent": {
+            "mean": 0.6517586939649659,
+            "n": 3,
+            "sd": 0.10028291737234771,
+            "se": 0.05789836934004595
+          },
+          "risk": {
+            "mean": 1.7343252130629638,
+            "n": 3,
+            "sd": 0.1727432080388146,
+            "se": 0.09973333766188915
+          },
+          "skipped": false
+        },
+        "knn_sr": {
+          "query_support_max": 11.0,
+          "query_support_mean": 10.666666666666666,
+          "query_support_min": 10.0,
+          "query_support_recorded_seeds": 3,
+          "relative_excess_percent": {
+            "mean": 0.9196851889779761,
+            "n": 3,
+            "sd": 0.1192998260228375,
+            "se": 0.06887778666856074
+          },
+          "risk": {
+            "mean": 1.7391224884474352,
+            "n": 3,
+            "sd": 0.17585692288421095,
+            "se": 0.10153104176605846
+          },
+          "skipped": false
+        },
+        "saa": {
+          "query_support_max": 500.0,
+          "query_support_mean": 500.0,
+          "query_support_min": 500.0,
+          "query_support_recorded_seeds": 3,
+          "relative_excess_percent": {
+            "mean": 4.557191217191675,
+            "n": 3,
+            "sd": 0.5327859396171972,
+            "se": 0.30760410565843654
+          },
+          "risk": {
+            "mean": 1.802216414063402,
+            "n": 3,
+            "sd": 0.18854424239390552,
+            "se": 0.10885606910027541
+          },
+          "skipped": false
+        },
+        "sof": {
+          "query_support_max": null,
+          "query_support_mean": null,
+          "query_support_min": null,
+          "query_support_recorded_seeds": 0,
+          "relative_excess_percent": {
+            "mean": 0.8708672309697397,
+            "n": 3,
+            "sd": 0.19497350752806425,
+            "se": 0.11256800705617342
+          },
+          "risk": {
+            "mean": 1.7383512020548053,
+            "n": 3,
+            "sd": 0.176864287101811,
+            "se": 0.10211264376826185
+          },
+          "skipped": false
+        }
+      },
+      "paired_atlas_minus_method": {
+        "atlas_init": {
+          "atlas_lower_seed_count": 3,
+          "atlas_minus_method_excess_pct": {
+            "mean": -0.7799053229577758,
+            "n": 3,
+            "sd": 0.13615679700449204,
+            "se": 0.07861016340254072
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.01358897108751648,
+            "n": 3,
+            "sd": 0.003700397260303139,
+            "se": 0.002136425354344571
+          },
+          "total_seeds": 3
+        },
+        "iceo_a": {
+          "atlas_lower_seed_count": 1,
+          "atlas_minus_method_excess_pct": {
+            "mean": 0.03303334813789728,
+            "n": 3,
+            "sd": 0.03560056605544503,
+            "se": 0.020553996395414244
+          },
+          "atlas_minus_method_risk": {
+            "mean": 0.0005292433640931016,
+            "n": 3,
+            "sd": 0.0005695172785177443,
+            "se": 0.0003288109540603628
+          },
+          "total_seeds": 3
+        },
+        "iceo_sr": {
+          "atlas_lower_seed_count": 2,
+          "atlas_minus_method_excess_pct": {
+            "mean": -0.035442173630681105,
+            "n": 3,
+            "sd": 0.043847057448453866,
+            "se": 0.025315110421037828
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.0006606978082293787,
+            "n": 3,
+            "sd": 0.0008001110505051149,
+            "se": 0.00046194433039072237
+          },
+          "total_seeds": 3
+        },
+        "knn": {
+          "atlas_lower_seed_count": 3,
+          "atlas_minus_method_excess_pct": {
+            "mean": -0.5297071350312997,
+            "n": 3,
+            "sd": 0.11283653640566413,
+            "se": 0.0651462046682352
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.009071336653682982,
+            "n": 3,
+            "sd": 0.0017273806670478286,
+            "se": 0.0009973036931130192
+          },
+          "total_seeds": 3
+        },
+        "knn_sr": {
+          "atlas_lower_seed_count": 3,
+          "atlas_minus_method_excess_pct": {
+            "mean": -0.79763363004431,
+            "n": 3,
+            "sd": 0.13057849178930356,
+            "se": 0.07538952738492975
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.013868612038154296,
+            "n": 3,
+            "sd": 0.0035706732283457207,
+            "se": 0.002061529149573592
+          },
+          "total_seeds": 3
+        },
+        "saa": {
+          "atlas_lower_seed_count": 3,
+          "atlas_minus_method_excess_pct": {
+            "mean": -4.435139658258009,
+            "n": 3,
+            "sd": 0.5437251142673933,
+            "se": 0.3139198410874396
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.07696253765412127,
+            "n": 3,
+            "sd": 0.016765556640047585,
+            "se": 0.009679598639245392
+          },
+          "total_seeds": 3
+        },
+        "sof": {
+          "atlas_lower_seed_count": 3,
+          "atlas_minus_method_excess_pct": {
+            "mean": -0.7488156720360735,
+            "n": 3,
+            "sd": 0.20668266597810778,
+            "se": 0.11932829283929004
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.013097325645524535,
+            "n": 3,
+            "sd": 0.004840975706471821,
+            "se": 0.0027949386272719447
+          },
+          "total_seeds": 3
+        }
+      },
+      "reference_risk": {
+        "mean": 1.7231545944794966,
+        "n": 3,
+        "sd": 0.17242374410582192,
+        "se": 0.09954889507417944
+      },
+      "seed_count": 3,
+      "seeds": [
+        260911,
+        260912,
+        260913
+      ]
+    },
+    "portfolio": {
+      "atlas_B_range": [
+        1,
+        1
+      ],
+      "atlas_max_K_range": [
+        9,
+        18
+      ],
+      "atlas_parameter_count_range": [
+        144,
+        459
+      ],
+      "atlas_stored_K_range": [
+        9,
+        18
+      ],
+      "atlas_structures": [
+        {
+          "B": 1,
+          "K_b": [
+            14
+          ],
+          "d_b": [
+            13
+          ],
+          "max_K": 14,
+          "parameter_count": 299,
+          "seed": 260911,
+          "selected_step": 1600,
+          "stored_K": 14,
+          "validation_loss": 0.0379704859193415
+        },
+        {
+          "B": 1,
+          "K_b": [
+            14
+          ],
+          "d_b": [
+            13
+          ],
+          "max_K": 14,
+          "parameter_count": 299,
+          "seed": 260912,
+          "selected_step": 400,
+          "stored_K": 14,
+          "validation_loss": 0.037370842218074074
+        },
+        {
+          "B": 1,
+          "K_b": [
+            18
+          ],
+          "d_b": [
+            17
+          ],
+          "max_K": 18,
+          "parameter_count": 459,
+          "seed": 260913,
+          "selected_step": 400,
+          "stored_K": 18,
+          "validation_loss": 0.03440488138611606
+        },
+        {
+          "B": 1,
+          "K_b": [
+            17
+          ],
+          "d_b": [
+            16
+          ],
+          "max_K": 17,
+          "parameter_count": 416,
+          "seed": 260914,
+          "selected_step": 1600,
+          "stored_K": 17,
+          "validation_loss": 0.03857512734649838
+        },
+        {
+          "B": 1,
+          "K_b": [
+            14
+          ],
+          "d_b": [
+            13
+          ],
+          "max_K": 14,
+          "parameter_count": 299,
+          "seed": 260915,
+          "selected_step": 400,
+          "stored_K": 14,
+          "validation_loss": 0.0401385311914924
+        },
+        {
+          "B": 1,
+          "K_b": [
+            13
+          ],
+          "d_b": [
+            12
+          ],
+          "max_K": 13,
+          "parameter_count": 264,
+          "seed": 260916,
+          "selected_step": 1600,
+          "stored_K": 13,
+          "validation_loss": 0.03589140217885199
+        },
+        {
+          "B": 1,
+          "K_b": [
+            14
+          ],
+          "d_b": [
+            13
+          ],
+          "max_K": 14,
+          "parameter_count": 299,
+          "seed": 260917,
+          "selected_step": 1600,
+          "stored_K": 14,
+          "validation_loss": 0.03774741663793782
+        },
+        {
+          "B": 1,
+          "K_b": [
+            17
+          ],
+          "d_b": [
+            16
+          ],
+          "max_K": 17,
+          "parameter_count": 416,
+          "seed": 260918,
+          "selected_step": 1200,
+          "stored_K": 17,
+          "validation_loss": 0.039264512719694895
+        },
+        {
+          "B": 1,
+          "K_b": [
+            14
+          ],
+          "d_b": [
+            13
+          ],
+          "max_K": 14,
+          "parameter_count": 299,
+          "seed": 260919,
+          "selected_step": 1600,
+          "stored_K": 14,
+          "validation_loss": 0.03605533759437398
+        },
+        {
+          "B": 1,
+          "K_b": [
+            9
+          ],
+          "d_b": [
+            8
+          ],
+          "max_K": 9,
+          "parameter_count": 144,
+          "seed": 260920,
+          "selected_step": 1600,
+          "stored_K": 9,
+          "validation_loss": 0.03532147613128831
+        }
+      ],
+      "methods": {
+        "atlas": {
+          "query_support_max": 18.0,
+          "query_support_mean": 14.4,
+          "query_support_min": 9.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 2.9390141391118756,
+            "n": 10,
+            "sd": 0.529502029321265,
+            "se": 0.16744324383364584
+          },
+          "risk": {
+            "mean": 0.03797525511922861,
+            "n": 10,
+            "sd": 0.0014750568828783511,
+            "se": 0.00046645394282038153
+          },
+          "skipped": false
+        },
+        "atlas_init": {
+          "query_support_max": 18.0,
+          "query_support_mean": 14.4,
+          "query_support_min": 9.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 33.268928482532,
+            "n": 10,
+            "sd": 39.88957217824928,
+            "se": 12.614190297295181
+          },
+          "risk": {
+            "mean": 0.04895257564682064,
+            "n": 10,
+            "sd": 0.013581035835767372,
+            "se": 0.0042947006225393354
+          },
+          "skipped": false
+        },
+        "iceo_a": {
+          "query_support_max": 500.0,
+          "query_support_mean": 500.0,
+          "query_support_min": 500.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 3.6639391059417137,
+            "n": 10,
+            "sd": 0.8423198354051905,
+            "se": 0.266364919821854
+          },
+          "risk": {
+            "mean": 0.03824366812447403,
+            "n": 10,
+            "sd": 0.001535606054521914,
+            "se": 0.0004856012721033955
+          },
+          "skipped": false
+        },
+        "iceo_sr": {
+          "query_support_max": 18.0,
+          "query_support_mean": 14.4,
+          "query_support_min": 9.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 6.692307233602617,
+            "n": 10,
+            "sd": 6.572498002981057,
+            "se": 2.0784063606328282
+          },
+          "risk": {
+            "mean": 0.039305152927567706,
+            "n": 10,
+            "sd": 0.0017101727950966962,
+            "se": 0.0005408041224961997
+          },
+          "skipped": false
+        },
+        "knn": {
+          "query_support_max": 276.155,
+          "query_support_mean": 233.1357142857143,
+          "query_support_min": 178.285,
+          "query_support_recorded_seeds": 7,
+          "relative_excess_percent": {
+            "mean": 5.200660880844578,
+            "n": 10,
+            "sd": 0.6633267765705324,
+            "se": 0.20976234469404964
+          },
+          "risk": {
+            "mean": 0.038806628602368484,
+            "n": 10,
+            "sd": 0.0014265297602709685,
+            "se": 0.0004511083192470237
+          },
+          "skipped": false
+        },
+        "knn_sr": {
+          "query_support_max": 18.0,
+          "query_support_mean": 14.4,
+          "query_support_min": 9.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 68.40720822816819,
+            "n": 10,
+            "sd": 60.53340598810459,
+            "se": 19.142343745008592
+          },
+          "risk": {
+            "mean": 0.061578512493205305,
+            "n": 10,
+            "sd": 0.0194897498020174,
+            "se": 0.006163200040119072
+          },
+          "skipped": false
+        },
+        "saa": {
+          "query_support_max": 499.0,
+          "query_support_mean": 496.4,
+          "query_support_min": 494.0,
+          "query_support_recorded_seeds": 10,
+          "relative_excess_percent": {
+            "mean": 16.906383433962997,
+            "n": 10,
+            "sd": 2.0146474999565926,
+            "se": 0.6370874782226809
+          },
+          "risk": {
+            "mean": 0.04311526892199497,
+            "n": 10,
+            "sd": 0.0014453473810752719,
+            "se": 0.0004570589734357205
+          },
+          "skipped": false
+        },
+        "sof": {
+          "query_support_max": 182.755,
+          "query_support_mean": 179.0807142857143,
+          "query_support_min": 175.81,
+          "query_support_recorded_seeds": 7,
+          "relative_excess_percent": {
+            "mean": 10.65562897473244,
+            "n": 10,
+            "sd": 1.2610267901257195,
+            "se": 0.39877168472884017
+          },
+          "risk": {
+            "mean": 0.04081649717747826,
+            "n": 10,
+            "sd": 0.00147645690234312,
+            "se": 0.0004668966678481055
+          },
+          "skipped": false
+        }
+      },
+      "paired_atlas_minus_method": {
+        "atlas_init": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -30.32991434342012,
+            "n": 10,
+            "sd": 39.54657393083219,
+            "se": 12.505724727766783
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.010977320527592017,
+            "n": 10,
+            "sd": 0.013951815942060273,
+            "se": 0.004411951587235825
+          },
+          "total_seeds": 10
+        },
+        "iceo_a": {
+          "atlas_lower_seed_count": 9,
+          "atlas_minus_method_excess_pct": {
+            "mean": -0.7249249668298379,
+            "n": 10,
+            "sd": 0.6139097251383336,
+            "se": 0.19413530091650624
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.00026841300524541175,
+            "n": 10,
+            "sd": 0.0002313825377071541,
+            "se": 7.316958299444011e-05
+          },
+          "total_seeds": 10
+        },
+        "iceo_sr": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -3.753293094490742,
+            "n": 10,
+            "sd": 6.179538078848719,
+            "se": 1.9541415216903126
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.001329897808339088,
+            "n": 10,
+            "sd": 0.0021085357310372437,
+            "se": 0.0006667775437925878
+          },
+          "total_seeds": 10
+        },
+        "knn": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -2.2616467417327026,
+            "n": 10,
+            "sd": 0.41839093195306576,
+            "se": 0.13230682973322083
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.0008313734831398572,
+            "n": 10,
+            "sd": 0.0001369469672260297,
+            "se": 4.330643350866849e-05
+          },
+          "total_seeds": 10
+        },
+        "knn_sr": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -65.46819408905631,
+            "n": 10,
+            "sd": 60.11189022761288,
+            "se": 19.009048757727413
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.02360325737397668,
+            "n": 10,
+            "sd": 0.020329180839456545,
+            "se": 0.006428651441813649
+          },
+          "total_seeds": 10
+        },
+        "saa": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -13.967369294851121,
+            "n": 10,
+            "sd": 1.5723304238583542,
+            "se": 0.4972145373770352
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.00514001380276635,
+            "n": 10,
+            "sd": 0.0004671686218192757,
+            "se": 0.00014773168963107456
+          },
+          "total_seeds": 10
+        },
+        "sof": {
+          "atlas_lower_seed_count": 10,
+          "atlas_minus_method_excess_pct": {
+            "mean": -7.716614835620566,
+            "n": 10,
+            "sd": 0.9370840564159824,
+            "se": 0.2963319977304226
+          },
+          "atlas_minus_method_risk": {
+            "mean": -0.0028412420582496476,
+            "n": 10,
+            "sd": 0.0003055201199165135,
+            "se": 9.66139449943955e-05
+          },
+          "total_seeds": 10
+        }
+      },
+      "reference_risk": {
+        "mean": 0.036894827188348814,
+        "n": 10,
+        "sd": 0.0015245996242577585,
+        "se": 0.00048212073324914147
+      },
+      "seed_count": 10,
+      "seeds": [
+        260911,
+        260912,
+        260913,
+        260914,
+        260915,
+        260916,
+        260917,
+        260918,
+        260919,
+        260920
+      ]
+    }
+  },
+  "experiment": "synthetic_main_comparison"
+}
