@@ -61,12 +61,14 @@ def main() -> None:
         e_se = ge_m[key]["pooled_1004d_nw_se_lag14"]
         l_loss = gl_m[key]["pooled_mean_loss"]
         l_se = gl_m[key]["pooled_nw_se_lag14"]
+        b_s = ge_m[key]["mean_build_wall_s"]
+        b_str = " <0.01" if b_s < 0.01 else f"{b_s:6.2f}"
         dep_32_ms = ge_dep[key]["ctx128_core32_s"]["median"] * 1000.0
         print(
             f"  {name:<10} | K={ge_m[key]['mean_scenarios']:5.1f} | "
             f"18Q1-20Q3={e_loss:.2f} ({e_se:.2f}) | "
             f"20Q4-24Q4={l_loss:.2f} ({l_se:.2f}) | "
-            f"Deploy(128,32c)={dep_32_ms:.2f} ms"
+            f"Build={b_str} s | Deploy(128,32c)={dep_32_ms:.2f} ms"
         )
 
     print("\n=== Table 9: Spectral Retention Threshold Sensitivity (alpha_ret) ===")

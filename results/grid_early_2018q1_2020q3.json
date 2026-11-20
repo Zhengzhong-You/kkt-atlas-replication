@@ -8,24 +8,24 @@
       },
       "max_oos_kkt_residual": 3.7892694086559206e-14,
       "max_scenarios": 9.0,
-      "mean_build_wall_s": 165.8586900454353,
+      "mean_build_wall_s": 94.5221015545328,
       "mean_committed_gw": 155.6521838829252,
       "mean_scenarios": 8.363636363636363,
       "min_scenarios": 8.0,
       "pandemic_2020_274d_mean_loss": 23.636658176379914,
       "pandemic_2020_prescriptiveness_P": 0.4556925035725796,
       "per_quarter_build_wall_s": {
-        "2018Q1": 157.94074150000233,
-        "2018Q2": 165.53004079998937,
-        "2018Q3": 154.41120520001277,
-        "2018Q4": 156.1930141999619,
-        "2019Q1": 168.25942220003344,
-        "2019Q2": 186.58465819992125,
-        "2019Q3": 165.84382980002556,
-        "2019Q4": 177.3806686999742,
-        "2020Q1": 162.4121778999688,
-        "2020Q2": 165.82513709994964,
-        "2020Q3": 164.06469489994925
+        "2018Q1": 88.77272080001421,
+        "2018Q2": 89.27984879980795,
+        "2018Q3": 85.79711749986745,
+        "2018Q4": 90.62134220008738,
+        "2019Q1": 98.78827750007622,
+        "2019Q2": 93.67536940006539,
+        "2019Q3": 95.87204289995134,
+        "2019Q4": 104.07201500004157,
+        "2020Q1": 90.16977429995313,
+        "2020Q2": 106.74396770005114,
+        "2020Q3": 95.95064099994488
       },
       "per_quarter_scenarios": {
         "2018Q1": 8.0,
@@ -60,7 +60,7 @@
         "2020Q3": 22.868460410700653
       },
       "quarterly_median_loss": 24.053524928102323,
-      "total_build_wall_s": 1824.4455904997885
+      "total_build_wall_s": 1039.7431170998607
     },
     "atlas_init": {
       "deploy_2019Q1_medians": {
@@ -1092,6 +1092,7 @@
     }
   },
   "g_timing": {
+    "atlas_build_lr": 0.025,
     "deployment_2019Q1": {
       "atlas_K_1_on_2019Q1": 8,
       "deploy_dates_range": "2019-01-01..2019-05-08",
@@ -1409,7 +1410,7 @@
     "iceo_a_build_source": "Direct from Step II.3 Group 5 run (GRID64_C16S_ICEO_A.json)",
     "iceo_a_uncontended_w01_w09_mean_build_wall_s": 342.0856190111048,
     "mean_build_wall_s_11_windows": {
-      "atlas": 165.8586900454353,
+      "atlas": 94.5221015545328,
       "atlas_init": 2.390883672707291,
       "iceo_a": 345.78428817271595,
       "iceo_sr": 83.86026994547468,
@@ -1423,8 +1424,8 @@
   "manuscript_prose_derived_ratios": {
     "atlas_vs_init_11qtr_median_cut_pct": 20.64566603545629,
     "atlas_vs_init_pooled_loss_cut_pct": 20.842349400119055,
-    "build_speedup_factor_vs_iceo_a": 2.0848126081183436,
-    "build_time_reduction_vs_iceo_a_pct": 52.03405830788053,
+    "build_speedup_factor_vs_iceo_a": 3.65823741205354,
+    "build_time_reduction_vs_iceo_a_pct": 72.66443132681613,
     "deploy_ctx128_core32_speedup_vs_iceo_a": 3.4695219248430456,
     "deploy_ctx1_core1_speedup_vs_iceo_a": 1.2203238379885686,
     "scenario_reduction_pct_max": 98.9010989010989,
@@ -1451,7 +1452,7 @@
       },
       "methods": {
         "atlas": {
-          "build_wall_s": 157.94074150000233,
+          "build_wall_s": 88.77272080001421,
           "loss": 29.549548983741822,
           "max_res": 2.149253732067911e-14,
           "mean_committed_gw": 174.6432931750822,
@@ -1580,7 +1581,7 @@
       },
       "methods": {
         "atlas": {
-          "build_wall_s": 165.53004079998937,
+          "build_wall_s": 89.27984879980795,
           "loss": 24.053524928102323,
           "max_res": 2.418911959488282e-14,
           "mean_committed_gw": 141.89560296297907,
@@ -1709,7 +1710,7 @@
       },
       "methods": {
         "atlas": {
-          "build_wall_s": 154.41120520001277,
+          "build_wall_s": 85.79711749986745,
           "loss": 24.00474242311239,
           "max_res": 2.2543181080115804e-14,
           "mean_committed_gw": 141.51930503772564,
@@ -1838,7 +1839,7 @@
       },
       "methods": {
         "atlas": {
-          "build_wall_s": 156.1930141999619,
+          "build_wall_s": 90.62134220008738,
           "loss": 27.304896112574767,
           "max_res": 2.562328727322117e-14,
           "mean_committed_gw": 173.19495186471053,
@@ -1967,7 +1968,7 @@
       },
       "methods": {
         "atlas": {
-          "build_wall_s": 168.25942220003344,
+          "build_wall_s": 98.78827750007622,
           "loss": 26.830508443387014,
           "max_res": 3.100470569811166e-14,
           "mean_committed_gw": 174.4666146640813,
@@ -2096,7 +2097,7 @@
       },
       "methods": {
         "atlas": {
-          "build_wall_s": 186.58465819992125,
+          "build_wall_s": 93.67536940006539,
           "loss": 23.340175574348336,
           "max_res": 2.3786430152651216e-14,
           "mean_committed_gw": 143.7682938034979,
@@ -2225,7 +2226,7 @@
       },
       "methods": {
         "atlas": {
-          "build_wall_s": 165.84382980002556,
+          "build_wall_s": 95.87204289995134,
           "loss": 23.53123771886178,
           "max_res": 2.269315866605056e-14,
           "mean_committed_gw": 139.88632950112083,
@@ -2354,7 +2355,7 @@
       },
       "methods": {
         "atlas": {
-          "build_wall_s": 177.3806686999742,
+          "build_wall_s": 104.07201500004157,
           "loss": 26.692134159696842,
           "max_res": 2.3328795774243814e-14,
           "mean_committed_gw": 171.45996313784622,
@@ -2483,7 +2484,7 @@
       },
       "methods": {
         "atlas": {
-          "build_wall_s": 162.4121778999688,
+          "build_wall_s": 90.16977429995313,
           "loss": 26.020207635527406,
           "max_res": 3.7892694086559206e-14,
           "mean_committed_gw": 171.15650102527692,
@@ -2612,7 +2613,7 @@
       },
       "methods": {
         "atlas": {
-          "build_wall_s": 165.82513709994964,
+          "build_wall_s": 106.74396770005114,
           "loss": 22.029748216600463,
           "max_res": 1.6975754061189594e-14,
           "mean_committed_gw": 139.10315006033125,
@@ -2741,7 +2742,7 @@
       },
       "methods": {
         "atlas": {
-          "build_wall_s": 164.06469489994925,
+          "build_wall_s": 95.95064099994488,
           "loss": 22.868460410700653,
           "max_res": 2.4341381363978526e-14,
           "mean_committed_gw": 141.61182065851426,
